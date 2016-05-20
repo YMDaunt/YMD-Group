@@ -11,6 +11,7 @@ function fade() {
 
     $('.dots').children().eq(imgIndex).addClass('dot').siblings().removeClass('dot');
 }fade();
+
 //左箭头
 $('.large').hover(function(){
     $('.l-arr').stop(true, true).fadeIn(1000);
