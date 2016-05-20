@@ -1,0 +1,31 @@
+  /*
+   * 功能：多行超出省略号
+   * 参数：ele: 元素 （JQ获取元素的方式）
+   *       num: 最多的字符长度（不包括num）
+   * demo: ellipsis('.con-left p a', 130);
+   * 负责人: 吴肖琪        
+   */
+  function ellipsis(ele, num) {
+    $(ele).each(function(){
+      $(this)[0].innerHTML = $(this)[0].innerHTML.slice(0, num) + '...';
+    });
+  }
+
+    /*
+     * 功能：自动根据父级定位居中
+     * 参数：ele：自身元素
+     *       prop：定位属性（left | right | top | bittom）
+     * demo: position('.detial-pic span', 'left')
+     * 负责人：吴肖琪
+     */
+    function position(ele, prop) {
+      if (prop == 'left' || prop == 'right') {
+        $(ele).css({
+          'left' :  ($(ele).parent().width() - $(ele).width()) / 2 + 'px'
+        })
+      } else {
+        $(ele).css({
+          'top' :  ($(ele).parent().height() - $(ele).height()) / 2 + 'px'
+        })
+      }
+    } 
