@@ -27,9 +27,11 @@
             </div>
             <div class="big-pic">
                 <div class="bigs">
-                    <a href="" title="博看图片"><img src="../images/big1.jpg" alt="博看图片" /></a>
+                    <a class="bigs-show" href="" title="博看图片"><img src="../images/big1.jpg" alt="博看图片" /></a>
+                    <a href="" title="博看图片"><img src="../images/big2.jpg" alt="博看图片" /></a>
+                    <a href="" title="博看图片"><img src="../images/big3.jpg" alt="博看图片" /></a>
                     <div class="pic-point">
-                        <div><span></span></div>
+                        <div><span class="fir-point"></span></div>
                         <div><span></span></div>
                         <div><span></span></div>
                     </div>
@@ -1208,72 +1210,52 @@
                             'borderBottom' : starBorder
                         })
                     }
-                    if(winScroll > hegScrollArr[2]) {
-                        $('.head-out').css({
-                            'background' : colorArr[2]
-                        })
-                        setBorder();
-                    }
-                    if(winScroll > hegScrollArr[3]) {
-                        $('.head-out').css({
-                            'background' : colorArr[3]
-                        })
-                        setBorder();
-                    }
-                    if(winScroll > hegScrollArr[4]) {
-                        $('.head-out').css({
-                            'background' : colorArr[4]
-                        })
-                        setBorder();
-                    }
-                    if(winScroll > hegScrollArr[5]) {
-                        $('.head-out').css({
-                            'background' : colorArr[5]
-                        })
-                        setBorder();
-                    }
-                    if(winScroll > hegScrollArr[6]) {
-                        $('.head-out').css({
-                            'background' : colorArr[6]
-                        })
-                        setBorder();
-                    }
-                    if(winScroll > hegScrollArr[7]) {
-                        $('.head-out').css({
-                            'background' : colorArr[7]
-                        })
-                        setBorder();
+                    for (var i = 2; i < len - 1; i++) {
+                        if(winScroll > hegScrollArr[i]) {
+                            $('.head-out').css({
+                                'background' : colorArr[i]
+                            })
+                            setBorder();
+                        }
                     }
                 }changeColor();
             }
 
             
 
-            // 设置.star-con, .prout 的宽
-            $('.star-con, .prout').each(function(){
-                $(this).css({
-                     width : $(this).children().length * 1018 + 'px'
-                })
+            /*
+             * 功能：大图渐变
+             * 作者： 姑姑
+             */
+            var bigsLen = $('.bigs a').length;
+            var bigsIndex = 0;
+            var timerPics = setInterval(bigsFade, 4000);
+
+            function bigsFade() {
+                bigsIndex++;
+                if (bigsIndex >= bigsLen) {
+                    bigsIndex = 0;
+                };
+                $('.bigs a').eq(bigsIndex).fadeIn(2000).siblings('a').fadeOut(2000);
+                changePoint();
+            }
+
+            //点击小圆点切换的效果
+            $('.pic-point').children().on('click', function(){
+                bigsIndex = $(this).index();
+                $('.bigs a').stop(true, true).eq(bigsIndex).fadeIn(2000).siblings('a').fadeOut(2000);
+                changePoint();
             })
 
-            $('.pic-point div').eq(0).children('span').css('background', 'url("../images/index.png") -19px -3px no-repeat');
-            var nowImgPostion = 0;
-            var timerImg = setTimeout(moveImg, 3000);
-            function moveImg() {
-                nowImgPostion++;
-                if (nowImgPostion > $('.pic-point div').length - 1) {
-                    nowImgPostion = 0;
-                }
-                $('.bigs img')[0].src =  '../images/big' + (nowImgPostion + 1) + '.jpg' ;
-                $('.pic-point div').eq(nowImgPostion).children('span').css('background', 'url("../images/index.png") -19px -3px no-repeat');
-                $('.pic-point div').eq(nowImgPostion).siblings().children('span').css('background', 'url("../images/index.png") 0 -3px no-repeat');
-                timerImg = setTimeout(moveImg, 3000);
+            // 小圆点变动
+            function changePoint() {
+                $('.pic-point span').eq(bigsIndex).css({
+                    'background' : '#fa9d05'
+                })
+                $('.pic-point span').eq(bigsIndex).parent().siblings().children().css({
+                    'background' : '#fff'
+                })
             }
-            $('.pic-point div').click(function(){
-                clearTimeout(timerImg);
-                nowImgPostion = $(this).index() - 1;
-                moveImg();
-            })
 
 
 

@@ -1,28 +1,18 @@
 /*大图区开始*/
-.big-pic {
-    overflow: hidden;
-    /*position: relative;*/
-    height: 780px;
-}
 .head {
     height: 80px;
     border-bottom: 4px solid #958E89;
 }
-/*.head-out {
-    position: absolute;
-    top: 0px;
-    left: 50%;
-    height: 80px;
-    overflow: hidden;
-    margin-left: -490px;
-    background: none;
-    border-bottom: 4px solid #958E89;
-}*/
 .home {
     color: #FF8100;
 }
 .home div {
     background: url("../images/common.png") 0px -22px no-repeat;
+}
+/*大图滚动区  开始*/
+.big-pic {
+    overflow: hidden;
+    height: 780px;
 }
 .bigs {
     position: relative;
@@ -30,8 +20,15 @@
     height: 780px;
 }
 .bigs a {
-    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
     height: 780px;
+}
+.bigs .bigs-show {
+    display: block;
 }
 .bigs img {
     display: block;
@@ -56,9 +53,13 @@
     display: block;
     width: 12px;
     height: 12px;
-    background:url("../images/index.png") 0 -3px no-repeat;
+    border-radius: 50%;
+    background: #fff;
     cursor: pointer;
     cursor: hand;
+}
+.pic-point .fir-point {
+    background: #fa9d05;
 }
 /*大图区样式  结束*/
 
