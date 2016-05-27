@@ -1,0 +1,80 @@
+@charset 'utf-8';
+.head-out {
+	background: #2551a9;
+}
+.tits .us {
+	background: url("../images/common.png") -212px -22px no-repeat;
+	color: #FF8100;
+}
+.tit a {
+	color: #000
+}
+.tit a:hover {
+	text-decoration: underline;
+}
+.content {
+	background: url("../images/bac.png") repeat;
+}
+.con {
+	width: 980px;
+	margin: 0 auto;
+}
+.tit {
+	height: 88px;
+	padding-left: 68px;
+	background: url("../images/tit_bac.png") no-repeat;
+	color: #000; 
+	line-height: 88px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.con-left {
+	float: left;
+	width: 688px;
+	padding: 0px 16px 113px 0px;
+	border-right: 1px solid #e0e0e0;
+}
+.con-left h2 {
+	height: 46px;
+	padding-left: 9px;
+	border-bottom: 4px solid #ffa18f;
+	color: #000;
+	font-size: 30px;
+}
+.con-left h1 {
+	height: 92px;
+	color: #000; 
+	line-height: 92px;
+	font-size: 30px;
+	text-align: center;
+}
+.con-left img {
+	display: block;
+	width: 664px;
+	height: 307px;
+	margin: 0 auto 10px;
+	border-radius: 9px;
+}
+.con-left ul {
+	width: 664px;
+	margin: 0 auto;
+}
+.con-left li {
+	margin-top: 34px;
+	color: #000;
+	line-height: 28px;
+}
+.con-left li h3 {
+	font-size: 24px;
+}
+.con-left li p {
+	font-size: 16px;
+}
+.con-left .end {
+	height: 48px;
+	border-bottom: 4px solid #ffa18f;
+}
+.con-right {
+	float: right;
+	padding: 93px 0px 0px 16px;
+}

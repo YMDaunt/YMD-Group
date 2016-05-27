@@ -1,0 +1,146 @@
+@charset 'utf-8';
+.tits .job div {
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.job {
+    color: #FF8100;
+}
+.content {
+	width: 100%;
+}
+.main {
+	width: 980px;
+	margin: auto;
+	padding-top: 36px;
+	margin-bottom: 105px;
+}
+.tit {
+    padding-left: 10px;
+}
+.tit div {
+    float: left;
+    width: 31px;
+    height: 31px;
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.tit span {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    line-height: 31px;
+    color: #3c3c3c;
+}
+.tit span em {
+    float: left;
+    margin: 0 6px;
+}
+.tit span a {
+    float: left;
+    display: block;
+    color:  #3c3c3c;
+}
+.tit span a:hover {
+    text-decoration: underline;
+}
+.main h1 {
+	width: 680px;
+	height: 64px;
+	padding-left: 10px;
+	line-height: 64px;
+	font-size: 30px;
+	color: #3c3c3c;
+	border-bottom: 4px solid #ffa18f;
+}
+.main .fine_stu {
+	float: left;
+	width: 690px;
+	border-bottom: 4px solid #ffa18f; 
+	padding-bottom: 32px;
+	color: black;
+}
+.fine_stu .con {
+	width: 670px;
+	padding: 32px 10px 0;
+}
+.fine_stu .con img {
+	width: 670px;
+	height: 308px;
+	border-radius: 5px;
+}
+.con dt a {
+	display: block;
+	width: 670px;
+	height: 308px;
+	margin-bottom: 37px;
+}
+.con dd {
+	color: #3c3c3c;
+}
+.con dd h2 {
+	font-size: 30px;
+}
+.con dd .info {
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.con dd .education, .con dd h3, .con dd h4, .works h2 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.con dd p {
+	line-height: 28px;
+	font-size: 16px;
+	color: #a1a1a1;
+}
+.con dd h4 {
+	margin: 28px 0 16px 0;
+}
+/*作品模块*/
+.fine_stu .works {
+	margin-top: 46px;
+}
+.works dl {
+	width: 100%;
+}
+.works dt {
+	float: left;
+	margin-right: 21px;
+}
+.works dt a, .works dt img {
+	display: block;
+	width: 90px;
+	height: 104px;
+}
+.works dd {
+	float: left;
+	width: 560px;
+}
+.works dd h3 {
+	color: #3c3c3c;
+	font-size: 18px;
+	margin-bottom: 13px;
+}
+.works dd h4 {
+	color: #b4b4b4;
+}
+.works dd a {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 490px;
+	line-height: 24px;
+	color: #b4b4b4;
+}
+.works dd a:hover {
+	color: #e88079;
+}
+.works dd .btn {
+	float: right;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url("../images/public_list.png") -24px -24px;
+}
+.news {
+	float: right;
+}

@@ -1,0 +1,141 @@
+.head-out {
+  background: #2551a9;
+}
+.tits .us {
+  background: url("../images/common.png") -212px -22px no-repeat;
+  color: #FF8100;
+}
+.tit a {
+  color: #000;
+}
+.tit a:hover {
+  text-decoration: underline;
+}
+.content {
+  background: url("../images/bac.png") repeat;
+}
+.con {
+  width: 980px;
+  margin: 0 auto;
+}
+.tit {
+  height: 88px;
+  padding-left: 68px;
+  background: url("../images/tit_bac.png") no-repeat;
+  color: #000; 
+  line-height: 88px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.con-left {
+  float: left;
+  width: 688px;
+  padding: 0px 16px 113px 0px;
+  border-right: 1px solid #e0e0e0;
+}
+.con-left h2 {
+  height: 46px;
+  padding-left: 9px;
+  border-bottom: 4px solid #ffa18f;
+  color: #000;
+  font-size: 30px;
+}
+.con-left ul {
+  overflow: hidden;
+  width: 664px;
+  height: 1518px;
+  margin: 0 auto;
+  padding-top: 24px;
+  border-bottom: 1px solid #ffa18f;
+}
+.con-left ul li {
+  overflow: hidden;
+  height: 214px;
+  margin-bottom: 39px;
+}
+.con-left li h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+  height: 34px;
+  color: #000;
+  line-height: 34px;
+  font-size: 20px;
+}
+.con-left li span {
+  margin-right: 16px;
+  color: #909090;
+  line-height: 24px;
+  font-size: 16px;
+}
+.con-left li p {
+  height: 84px;
+  margin: 26px 0px 16px 0px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.con-left li a {
+  color: #3c3c3c;
+}
+.con-left li .more {
+  display: block;
+  width: 68px;
+  height: 30px;
+  border-radius: 5px;
+  color: #FFF;
+  background: #ffa18f;
+  text-align: center;
+  line-height: 30px;
+  font-size: 12px;
+  font-family: Arial;
+}
+.con-left li .more:hover {
+  color: #000;
+}
+.con-right {
+  float: right;
+  padding: 93px 0px 0px 16px;
+}
+.con-left .page {
+  position: relative;
+  width: 240px;
+  height: 26px;
+  margin: 21px auto 0px;
+  padding: 0 4px 0 38px;
+}
+.con-left .page-left {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 7px;
+    height: 14px;
+    background: url("../images/new.png") -24px -50px;
+    cursor: pointer;
+    cursor: hand;
+}
+ .con-left .page-right {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    width: 7px;
+    height: 14px;
+    background: url("../images/new.png") -66px -51px;
+    cursor: pointer;
+    cursor: hand;
+    zoom: 1;
+}
+.con-left .page span {
+  float: left;
+  display: inline;
+  width: 26px;
+  height: 26px;
+  margin-right: 34px;
+  border-radius: 50%;
+  background: #b4b4b4;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  cursor: hand;
+}

@@ -1,0 +1,186 @@
+@charset 'utf-8';
+.tits .job div {
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.job {
+    color: #FF8100;
+}
+/*明星学员内容   开始*/
+.content {
+	width: 100%;
+}
+.main {
+	width: 980px;
+	margin: auto;
+	padding-top: 36px;
+	margin-bottom: 105px;
+}
+.tit {
+	padding-left: 10px;
+}
+.tit div {
+	float: left;
+	width: 31px;
+	height: 31px;
+	background: url("../images/common.png") -70px -22px no-repeat;
+}
+.tit span {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	line-height: 31px;
+	color: #3c3c3c;
+}
+.tit span em {
+    float: left;
+    margin: 0 6px;
+}
+.tit span a {
+    float: left;
+    display: block;
+    color:  #3c3c3c;
+}
+.tit span a:hover {
+    text-decoration: underline;
+}
+.main h1 {
+	width: 680px;
+	height: 64px;
+	padding-left: 10px;
+	line-height: 64px;
+	font-size: 30px;
+	color: #3c3c3c;
+	border-bottom: 4px solid #ffa18f;
+}
+.main .star {
+	float: left;
+	width: 690px;
+}
+.star dl {
+	float: left;
+	width: 654px;
+	height: 192px;
+	padding: 32px 10px;
+}
+.star dt {
+	float: left;
+	margin-right: 28px
+}
+.star dt, .star dt img {
+	width: 194px;
+	height: 192px;
+}
+.star dd {
+	float: left;
+	width: 432px;
+	height: 192px;
+}
+.star .info span {
+	font-size: 18px;
+	margin-right: 30px;
+	color: #3c3c3c;
+}
+.star .education {
+	margin: 8px 0 15px 0;
+}
+.star .education span {
+	font-size: 16px;
+	color: #989898;
+}
+.star dd a {
+    display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 82px;
+	line-height: 28px;
+	font-size: 16px;
+	color: #6f6f6f;
+}
+.star dd a:hover {
+    color: #ffa18f;
+}
+.star dd .btn {
+	display: block;
+	width: 68px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+    color: #fff;
+	background: #e88079;
+}
+.star dd .btn:hover {
+    color: black;  
+}
+.news {
+	float: right;
+	width: 250px;
+}
+.star_box {
+	height: 1536px;
+	padding-bottom: 18px;
+	border-bottom: 1px solid  #ffa18f;
+}
+.star_box div {
+    float: left;
+}
+.star_box .notSee {
+    display: none;
+}
+.star_box .see{
+    display: block;
+}
+.turning {
+	width: 259px;
+	margin: 22px auto;
+}
+.turning .left, .turning .right {
+	float: left;
+    display: block;
+	width: 10px;
+	height: 14px;
+	margin-top: 6px;
+	cursor: pointer;
+}
+.turning .left {
+	padding-right: 27px;
+	background: url("../images/arrow_left.png") 0 0 no-repeat;
+}
+.turning .right {
+	background: url("../images/arrow_right.png") 0 0 no-repeat;
+}
+.turning .left:hover {
+	background: url("../images/arrow_left0.png") 0 0 no-repeat;
+}
+.turning .right:hover {
+	background: url("../images/arrow_right0.png") 0 0 no-repeat;
+
+}
+.turning .box {
+	float: left;
+    /*width: 212px;*/
+}
+.turning .box span {
+	float: left;
+    /*display: block;*/
+	width: 26px;
+	height: 26px;
+	margin-right: 27px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 26px;
+	font-size: 16px;
+	background: #b4b4b4;
+	cursor: pointer;
+}
+.turning .box .act {
+    background: #e8827b;
+}
+.turning .box span:hover {
+	background: #e8827b
+}
+/*明星学员内容  结束*/
+.news {
+    float: right;
+}

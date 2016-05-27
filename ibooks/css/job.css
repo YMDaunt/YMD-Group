@@ -1,0 +1,572 @@
+ @charset 'utf-8';
+ /* 头部样式处理 */
+.tits .job div {
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.job {
+    color: #FF8100;
+}
+.head-out {
+    height: 84px;
+}
+.head {
+    height: 84px;
+    margin: 0 auto;   
+    border-bottom: 4px solid rgba(96, 83, 78, 0.5);
+}
+/* 就业 开始*/
+.job-wrap {
+    min-width: 980px;
+    padding-top: 114px;
+    background: #292936;
+}
+.job-cont {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+/* 标题 */
+.job-tit {
+    margin-left: 10px;
+    margin-bottom: 72px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.job-tit div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.job-wrap .se-linel, .job-wrap .se-liner {
+    background: url("../images/job.png") 0 -329px no-repeat;
+}
+.security {
+    position: relative;
+}
+.advantage, .stu-info {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 15px;
+    width: 350px;
+    height: 2px;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+.security h3 {
+    width: 100%;
+    margin: 0px auto 40px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+/* 标题 结束 */
+
+/* 就业明星 */
+.star-out {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.star-con {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    height: 880px;
+    margin: 0 10px;
+}
+.staru-out, .stard-out {
+    overflow: hidden;
+    width: 960px;
+    height: 393px;
+}
+.star ul {
+    width: 2238px;
+}
+.star li {
+    position: relative;
+    float: left;
+    width: 297px;
+    height: 393px;
+    margin-right: 34px;
+}
+.star li img {
+    float: left;
+    width: 297px;
+    height: 296px;
+}
+.star li:hover div {
+    display: block;
+}
+.star li div {
+    position: absolute;
+    display: none;
+    width: 277px;
+    height: 296px;
+    padding-right: 20px;
+    background: url("../images/index.png") 0 -595px no-repeat;
+}
+.star-con h4 {
+    height: 24px;
+    margin: 80px 0 10px 40px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.star strong {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/index.png") -176px 0px no-repeat;
+}
+.star .star-word {
+    width: 220px;
+    height: 130px;
+    margin: 0px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+}
+.star li a {
+    display: block;
+    width: 100%;
+    height: 296px;
+}
+.star ul p {
+    width: 100%;
+    height: 26px;
+    margin-top: 25px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.star ul span {
+    padding-left: 22px;
+}
+.star-btns {
+    width: 960px;
+    height: 54px;
+    margin-bottom: 40px;
+}
+.star-btnr {
+    float: right;
+}
+.star-btnl {
+    float: left;
+}
+.star-btnl, .ja-btn1 {
+    width: 34px;
+    height: 54px;
+    background: url("../images/job.png") -353px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnr, .ja-btn2 {
+    width: 35px;
+    height: 55px;
+    background: url("../images/job.png") -400px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnl:hover, .ja-btn1:hover {
+    background: url("../images/job.png") -41px -114px no-repeat;
+}
+.star-btnr:hover, .ja-btn2:hover {
+    background: url("../images/job.png") -92px -114px no-repeat;
+}
+/* 就业明星 结束 */
+
+/* 就业活动 */
+.job-act {
+    position: relative;
+    margin-top: 38px;
+}
+.ja-tit {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.ja-tit1 {
+    float: left;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-tit2 {
+    float: right;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-cont1, .ja-cont2 {
+    overflow: hidden;
+    height: 243px;
+    margin: 8px 10px 0;
+    padding-bottom: 51px;
+}
+.ja-btn1 {
+    position: absolute;
+    top: 299px;
+    left: 10px;
+    cursor: pointer;
+}
+.ja-btn2 {
+    position: absolute;
+    top: 299px;
+    left: 936px;
+    cursor: pointer;
+}
+.ja-cl1, .ja-cl2 {
+    overflow: hidden;
+    height: 294px;
+}
+.ja-per {
+    float: left;
+    width: 275px;
+    height: 240px;
+    margin-right: 68px;
+}
+.ja-per img {
+    float: left;
+    width: 275px;
+    height: 150px;
+}
+.ja-per a {
+    float: left;
+}
+.ja-link {
+    display: block;
+    width: 275px;
+    margin: 33px 0;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.ja-link:hover {
+    color: #ff7214;
+}
+/* 就业活动 结束 */
+
+/* 就业优势 */
+
+.advantage {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 18px;
+    width: 350px;
+    height: 2px;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+.security h3, .our-inv h3 {
+    height: 30px;
+    margin: 0px auto 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.ad-con {
+    width: 1070px;
+    padding: 20px 12px;
+}
+.advantage dl {
+    float: left;
+    width: 165px;
+    padding-right: 102px;
+}
+.advantage dt {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto 5px;
+    background: url("../images/index.png") 0px -112px no-repeat;
+}
+.ad-con h4 {
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 24px;
+}
+.ad-con p {
+    overflow: hidden;
+    height: 120px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.ad-con span {
+    display: block;
+}
+.analy dt {
+    background: url("../images/index.png") -103px -107px no-repeat;
+}
+.get-job dt {
+    background: url("../images/index.png") -218px -107px no-repeat;
+}
+.trace dt {
+    background: url("../images/index.png") -328px -107px no-repeat;
+}
+.condition {
+    position: relative;
+    width: 980px;
+    height: 540px;
+    margin: 0 auto;
+    background: url("../images/condition.png") 0px 52px no-repeat;
+}
+.con-show, .con-hidden {
+    position: relative;
+    width: 980px;
+    height: 450px;
+}
+.con-hidden {
+    display: none;
+}
+.con-show div, .con-hidden div {
+    position: absolute;
+    width: 196px;
+}
+.con-left {
+    top: 41px;
+    left: 16px;
+}
+.condition .con-right {
+    width: 198px;
+    top: -22px;
+    right: -20px;
+}
+.con-show h4, .con-hidden h4 {
+    height: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.con-show p, .con-hidden p {
+    line-height: 29px;
+    font-size: 18px;
+}
+.con-show span, .con-hidden span {
+    display: block;
+}
+.con-btnl, .con-btnr {
+    position: absolute;
+    bottom: 150px;
+    right: 120px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    cursor: hand;
+}
+.con-btnl {
+    right: 142px;
+    background: url("../images/index.png") -282px -10px;
+}
+.con-btnr {
+    right: 62px;
+    background: url("../images/index.png") -228px -10px;
+}
+.con-btnl:hover {
+    background: url("../images/index.png") -282px -57px;
+}
+.con-btnr:hover {
+    background: url("../images/index.png") -228px -57px;
+}
+.data {
+    position: absolute;
+    bottom: 58px;
+    right: 50px;
+    font-size: 16px;
+}
+.stu-info {
+    height: 278px;
+}
+.stu-info table {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+}
+
+/* 就业优势 结束 */
+
+/* 就业感言 */
+.job-speech {
+    position: relative;
+    width: 980px;
+    margin-top: 21px;
+}
+.job-speech dl {
+    height: 194px;
+    margin: 42px 10px 0;
+    padding-bottom: 12px;
+}
+.job-speech dl img {
+    float: left;
+    width: 193px;
+    height: 192px;
+}
+.job-speech dd {
+    float: left;
+}
+.job-speech dt {
+    float: right;
+    width: 707px;
+}
+.job-speech h4 {
+    font-size: 18px;
+}
+.job-speech span {
+    color: #6f6f7e;
+    font-size: 16px;
+    line-height: 40px;
+}
+.job-speech p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.job-speech a:hover {
+    color: #ff8100;
+}
+.job-speech .more1 {
+    float: right;
+    width: 68px;
+    height: 30px;
+    margin-top: 36px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #e88079;
+    font-family: Arial;
+    cursor: pointer;
+}
+.job-speech .more1:hover {
+    color: #000;
+}
+/* 就业感言 结束 */
+
+/* 合作企业 */
+.job-coop {
+    position: relative;
+    margin-top: 31px; 
+}
+.coop-btn1 {
+    float: left;
+    width: 18px;
+    height: 28px;
+    margin: 25px 0 61px;
+    padding-left: 12px;
+    background: url("../images/job.png") -142px -58px no-repeat;
+    cursor: pointer;
+}
+.coop-btn2 {
+    float: right;
+    width: 18px;
+    height: 28px;
+    margin: 25px 0 61px;
+    padding-right: 12px;
+    background: url("../images/job.png") -182px -59px no-repeat;
+    cursor: pointer;
+}
+.coop-btn1:hover {
+     background: url("../images/job.png") -143px -94px no-repeat;
+}
+.coop-btn2:hover {
+     background: url("../images/job.png") -183px -95px no-repeat;
+}
+.coop-logo {
+    float: left;
+    overflow: hidden;
+    width: 866px;
+    height: 75px;
+    padding-left: 27px;
+    margin-top: 4px;
+}
+.colo-box {
+    width: 1732px;
+    height: 75px;
+}
+.colo-box li {
+    float: left;
+    width: 10%;
+    height: 75px;
+}
+.colo-box a {
+    display: block;
+    width: 108px;
+    height: 75px;
+    margin: 0 auto;
+}
+.colo-box img {
+    display: block;
+    width: 108px;
+    height: 75px; 
+}
+/* 合作企业 结束 */
+
+/* 招聘信息 */
+.rec-info {
+    position: relative;
+}
+.refo-wrap {
+    overflow: hidden;
+    width: 958px;
+    height: 114px;
+    margin: -6px 11px 0;
+}
+.refo-cont {
+    width: 1040px;
+}
+.refo-cont ul {
+    float: left;
+    width: 246px;
+    height: 114px;
+    margin-right: 100px;
+}
+.refo-cont li a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+    width: 246px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+}
+.refo-cont li a:hover {
+    color: #ff8100;
+}
+/* 就业指导 */
+.job-guide {
+    position: relative;
+    width: 980px;
+    height: 516px;
+    margin-top: 36px;
+}
+.guide-cont {
+    width: 980px;
+    height: 348px;
+    margin-top: 63px;
+    background: url("../images/job.png") -10px -588px no-repeat;    
+}
+/* 就业 结束
+ 

@@ -1,0 +1,129 @@
+@charset 'utf-8';
+.head-out {
+  background: #2551a9;
+}
+.tits .us {
+  background: url("../images/common.png") -212px -22px no-repeat;
+  color: #FF8100;
+}
+.tit a {
+  color: #000;
+}
+.tit a:hover {
+  text-decoration: underline;
+}
+.content {
+  background: url("../images/bac.png") repeat;
+}
+.con {
+  width: 980px;
+  margin: 0 auto;
+}
+.tit {
+  height: 88px;
+  padding-left: 68px;
+  background: url("../images/tit_bac.png") no-repeat;
+  color: #000; 
+  line-height: 88px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.con-left {
+  float: left;
+  width: 688px;
+  padding: 0px 16px 90px 0px;
+  border-right: 1px solid #e0e0e0;
+}
+.con-left h2 {
+  height: 46px;
+  padding-left: 9px;
+  border-bottom: 4px solid #ffa18f;
+  color: #000;
+  font-size: 30px;
+}
+.detial {
+  padding: 30px 10px 0px; 
+}
+.detial h1 {
+  color: #3c3c3c;
+  text-align: center;
+  line-height: 36px;
+  font-size: 30px;
+}
+.detial h3 {
+  text-align: center;
+}
+.detial h3 span, .detial h3 em {
+  color: #9e9e9e;
+  line-height: 36px;
+  font-size: 18px;
+}
+.detial p {
+  color: #888;
+  margin-top: 40px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.detial-pic {
+  position: relative;
+  width: 664px;
+  height: 307px;
+  margin-top: 68px;
+}
+.detial-pic img {
+  display: block;
+  width: 664px;
+  height: 307px;
+  border-radius: 9px;
+}
+.detial-pic span {
+  position: absolute;
+  bottom: -30px;
+  color: #888;
+  text-align: center;
+  font-size: 14px;
+}
+.new-scrolNew {
+  position: relative;
+  height: 81px;
+  border-bottom: 4px solid #ffa18f;
+  margin-top: 46px;
+}
+.new-scrolNew .btn-left {
+  position: absolute;
+  top: 21px;
+  left: 6px;
+  width: 39px;
+  height: 39px;
+  background: url("../images/scroll.png") -11px -7px;
+}
+.new-scrolNew .btn-right {
+  position: absolute;
+  top: 21px;
+  right: 6px;
+  width: 39px;
+  height: 39px;
+  background: url("../images/scroll.png") -63px -7px;
+}
+.new-scrolNew div {
+  overflow: hidden;
+  position: absolute;
+  width: 500px;
+  height: 20px;
+  line-height: 20px;
+}
+.new-scrolNew a {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: keep-all;
+  white-space: nowrap;
+  display: block;
+  height: 20px;
+  color: #3c3c3c;
+  text-align: center;
+  font-size: 14px;
+}
+.con-right {
+  float: right;
+  padding: 93px 0px 0px 16px;
+}

@@ -1,0 +1,303 @@
+@charset 'utf-8';
+.head-out {
+	background: #eb5c41;
+}
+.project div{
+	background: url(../images/common.png) -142px -22px no-repeat;
+}
+.project {
+	color: #FF8100;
+}
+.content {
+	min-width: 980px;
+	_width: 100%;
+	background: url(../images/jop-1.png) repeat; 
+}
+.con {
+	width: 980px;
+	margin: 0 auto;
+}
+.sidebar {
+	float: left;
+	width: 688px;
+	padding: 0 14px 74px 0;
+	border-right: 1px solid #e0e0e0;
+}
+.sidebar .tit {
+	height: 95px;
+	padding-top: 37px;
+	border-bottom: 4px solid #ffa18f;
+}
+.tit dl {
+	height: 31px;
+	margin: 0 0 19px 11px;
+}
+.tit dl dt{
+	float: left;
+	width: 31px;
+	height: 31px;
+	margin-right: 27px;
+	background: url(../images/common.png) -142px -22px no-repeat;
+}
+.tit dl dd {
+	float: left;
+	height: 31px;
+	line-height: 31px;
+}
+.tit dl dd em {
+	float: left;
+	color: #3c3c3c;
+	font-size: 14px;
+}
+.tit dl dd a {
+	float: left;
+	color: #3c3c3c;
+	font-size: 14px;
+}
+.tit dl dd a:hover {
+	text-decoration: underline;
+}
+.tit h2 {
+	margin-left: 8px;
+	color: #3c3c3c;
+	line-height: 30px;
+	font-size: 30px;
+}
+.pro-con {
+	padding: 21px 25px 0 13px;
+	border-bottom: 4px solid #ffa18f;
+}
+.pro-con dl {
+	width: 651px;
+	height: 204px;
+	margin-bottom: 49px;
+}
+.pro-con dl dt {
+	float: left;
+	position: relative;
+	width: 169px;
+	height: 185px;
+	margin-top: 4px;
+}
+.pro-con dl dt img {
+	display: block;
+	width: 168px;
+	height: 187px;
+}
+.pro-con dl dt div {
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 168px;
+	height: 187px;
+	background: url(../images/pro-8.png) no-repeat;
+}
+.pro-con dl dd {
+	float: right;
+	width: 432px;
+}
+.pro-con dl dd h2 a{
+	color: #3c3c3c;
+	line-height: 36px;
+	font-size: 20px;
+}
+.pro-con dl dd h3 em {
+	margin-right: 15px;
+	color: #909090;
+	line-height: 24px;
+	font-size: 16px;
+}
+.pro-con dl dd h3 span {
+	margin-right: 19px;
+	color: #909090;
+	line-height: 24px;
+	font-size: 16px;
+} 
+.pro-con dl dd p {
+	color: #3c3c3c;
+	line-height: 28px;
+	font-size: 16px;
+}
+.pro-con dl dd p a {
+	color: #3c3c3c;
+	line-height: 28px;
+	font-size: 16px;
+}
+.pro-con dl dd strong a{
+    width: 432px;
+    height: 48px;
+	color: #3c3c3c;
+	line-height: 26px;
+	font-size: 16px;
+}
+.pro-con dl dd div a {
+	display: block;
+	width: 68px;
+	height: 30px;
+	margin-top: 4px;
+	border-radius: 6px;
+	background: #e88079;
+	text-align: center;
+	line-height: 30px;
+} 
+.pro-con dl dd strong a:hover,
+ .pro-con dl dd h2 a:hover {
+	color: #ffa18f;
+}
+.pro-con dl dd a:hover {
+	color: #000;
+}
+.pro-con dl dd p a:hover {
+	color: blue;
+	text-decoration: underline;
+}
+.but-out {
+	position: relative;
+	height: 47px
+}
+.but {
+	position: absolute;
+	left: 230px;
+	bottom: 0;
+	width: 256px;
+	height: 26px;
+}
+.but .butL {
+	float: left;
+	width: 7px;
+	height: 13px;
+	margin-top: 7px;
+	margin-right: 30px;
+	background: url(../images/pro-3.png) 0 -16px no-repeat;
+	cursor: pointer;
+	cursor: hand;
+}
+.but .buts {
+	float: left;
+	width: 212px;
+	height: 26px;
+}
+.but .buts p {
+	float: left;
+	display:inline;
+	width: 25px;
+	height: 26px;
+	margin-right: 28px;
+	border-radius: 50%;
+	background: #b4b4b4;
+	text-align: center;
+	line-height: 26px;
+	cursor: pointer;
+	cursor: hand;
+}
+.but .butR {
+	float: left;
+	width: 7px;
+	height: 13px;
+	margin-top: 7px;
+	background: url(../images/pro-3.png) -11px -16px no-repeat;
+	cursor: pointer;
+	cursor: hand;
+}
+.but .buts p:hover {
+	background: #e8827b;
+}
+.but .butL:hover {
+	background: url(../images/pro-3.png) 0 0 no-repeat;
+} 
+.but .butR:hover {
+	background: url(../images/pro-3.png) -11px 0 no-repeat;
+}
+.titles {
+	float: left;
+	width: 249px;
+	padding: 93px 10px 0 16px;
+}
+ /* 公共样式列表开始 */
+      .public_list {
+        width: 250px;
+      }
+      .public_list h2, .public_list h3 {
+        position: relative;
+        height: 41px;
+        border-bottom: 4px solid #ffa18f;
+      }
+      .public_list h2 span {
+        color: #ffa18f;
+        font-size: 24px;
+      }
+      .public_list h2 a {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+        width: 25px;
+        height: 25px;
+        background: url("../images/public_list.png") -24px -24px;
+      }
+      .public_list ul {
+        padding: 25px 0px 17px 0px;
+      }
+      .public_list .public_list_ul {
+        overflow: hidden;
+        height: 190px;
+        padding-bottom: 0px;
+      }
+      .public_list li {
+        float: left;
+        height: 24px;
+        margin-bottom: 14px;
+      }
+      .public_list li div {
+        float: left;
+        overflow: hidden;
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        border-radius: 50%;
+        color: #fff;
+        background: #bebebe;
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px;
+      }
+      .public_list li a {
+        float: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap;
+        display: block;
+        width: 212px;
+        height: 24px;
+        color: #000;
+        line-height: 24px;
+        font-size: 14px;
+      }
+      .public_list h3 {
+        height: 15px;
+      }
+      .public_list h3 span {
+        position: absolute;
+        top: 0px;
+        left: 110px;
+        width: 33px;
+        height: 34px;
+        background: url("../images/public_list.png") -66px -19px;
+        cursor: pointer;
+        cursor: hand;
+      }
+      .content a:hover {
+        color: #ffa18f;
+      }
+    /* 公共样式列表结束 */
+
+
+
+
+
+
+
+
+
+
+

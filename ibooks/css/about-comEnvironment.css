@@ -1,0 +1,152 @@
+@charset 'utf-8';
+.head-out {
+  background: #2551a9;
+}
+.tits .us {
+  background: url("../images/common.png") -212px -22px no-repeat;
+  color: #FF8100;
+}
+.tit a {
+  color: #000;
+}
+.tit a:hover {
+  text-decoration: underline;
+}
+.content {
+  padding-bottom: 77px;
+  background: url("../images/bac.png") repeat;
+}
+.con {
+  width: 970px;
+  margin: 0 auto;
+  padding-right: 10px;
+}
+.tit {
+  height: 88px;
+  padding-left: 68px;
+  background: url("../images/tit_bac.png") no-repeat;
+  color: #000; 
+  line-height: 88px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.con h2 {
+  height: 46px;
+  padding-left: 9px;
+  border-bottom: 4px solid #ffa18f;
+  color: #000;
+  font-size: 30px;
+} 
+.content .page {
+  position: relative;
+  width: 240px;
+  height: 26px;
+  margin: 21px auto 0px;
+  padding: 0 4px 0 38px;
+}
+.content .page-left {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+    width: 7px;
+    height: 14px;
+    background: url("../images/new.png") -24px -50px;
+    cursor: pointer;
+    cursor: hand;
+}
+ .content .page-right {
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    width: 7px;
+    height: 14px;
+    background: url("../images/new.png") -66px -51px;
+    cursor: pointer;
+    cursor: hand;
+    zoom: 1;
+}
+.content .page span {
+  float: left;
+  display: inline;
+  width: 26px;
+  height: 26px;
+  margin-right: 34px;
+  border-radius: 50%;
+  background: #b4b4b4;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+  cursor: pointer;
+  cursor: hand;
+}
+.line {
+  width: 970px;
+  margin: 0 auto;
+  padding-right: 10px;
+}
+.line h3 {
+  border-top: 4px solid #ffa18f;
+}
+.environment {
+  width: 960px;
+  margin: 32px auto 28px;
+}
+.en-big-pic {
+  position: relative;
+  overflow: hidden;
+  width: 960px;
+  height: 352px;
+}
+.en-big-pic img {
+  display: block;
+  width: 960px;
+  height: 352px;
+}
+.en-big-pic .btn-left {
+  position: absolute;
+  top: 157px;
+  left: 18px;
+  width: 39px;
+  height: 39px;
+  background: url("../images/scroll.png") -11px -7px;
+}
+.en-big-pic .btn-right {
+  position: absolute;
+  top: 157px;
+  right: 18px;
+  width: 39px;
+  height: 39px;
+  background: url("../images/scroll.png") -63px -7px;
+}
+.en-lit-pic ul {
+  width: 970px;
+}
+.en-lit-pic ul li {
+  float: left;
+  position: relative;
+  width: 233px;
+  height: 157px;
+  margin: 8px 9px 0 0;
+  cursor: pointer;
+  cursor: hand;
+}
+.en-lit-pic li img {
+  display: block;
+  width: 233px;
+  height: 157px;
+}
+.en-lit-pic li div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 233px;
+  height: 157px;
+  background: #000;
+  opacity: 0.7;
+  filter:alpha(opacity=70);
+}
+.en-lit-pic li span {
+  position: absolute;
+  bottom: 15px;
+  font-size: 18px;
+}

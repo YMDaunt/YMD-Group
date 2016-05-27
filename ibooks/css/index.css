@@ -1,0 +1,871 @@
+/*大图区开始*/
+.big-pic {
+    overflow: hidden;
+    /*position: relative;*/
+    height: 780px;
+}
+.head {
+    height: 80px;
+    border-bottom: 4px solid #958E89;
+}
+/*.head-out {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 80px;
+    overflow: hidden;
+    margin-left: -490px;
+    background: none;
+    border-bottom: 4px solid #958E89;
+}*/
+.home {
+    color: #FF8100;
+}
+.home div {
+    background: url("../images/common.png") 0px -22px no-repeat;
+}
+.bigs {
+    position: relative;
+    width: 100%;
+    height: 780px;
+}
+.bigs a {
+    display: block;
+    height: 780px;
+}
+.bigs img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.pic-point {
+    position: absolute;
+    left: 50%;
+    bottom: 135px;
+    width: 100px;
+    height: 14px;
+    margin-left: -20px;
+}
+.pic-point div {
+    float: left;
+    width: 12px;
+    padding-right: 8px;
+    height: 12px;
+}
+.pic-point span {
+    display: block;
+    width: 12px;
+    height: 12px;
+    background:url("../images/index.png") 0 -3px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+/*大图区样式  结束*/
+
+/*就业明星样式  开始*/
+.star {
+    position: relative;
+    height: 1080px;
+    background: #FEA50A;
+}
+.btn-up, .btn-down {
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    margin-left: -25px;
+    background: url("../images/btn_up.png") 0 0 no-repeat;
+    z-index: 50;
+    cursor: pointer;
+    cursor: hand;
+}
+.btn-down {
+    display: none;
+    background: url("../images/btn_down.png") 0 0 no-repeat;
+}
+.star h2, .security h2, .h5-course h2, .pro-show h2, .teachs h2, .our h2 {
+    position: relative;
+    width: 710px;
+    margin: 0 auto;
+    height: 125px;
+    line-height: 125px;
+    text-align: center;
+    font-size: 48px;
+}
+.star p, .h5-course p, .pro-show p, .teachs p {
+    width: 710px;
+    height: 18px;
+    margin: 0 auto 12px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+.star-linel, .star-liner {
+    position: absolute;
+    top: 168px;
+    width: 128px;
+    height: 2px;
+    background: url("../images/index.png") -39px -8px no-repeat;
+}
+.star-linel {
+    left: -140px;
+}
+.star-liner {
+    right: -140px;
+}
+.star-out {
+    position:relative;
+    overflow: hidden;
+    width: 970px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+.star-con {
+    width: 2036px;
+}
+.star-btns {
+    width: 960px;
+    height: 60px;
+    margin: 10px auto 30px ;
+}
+.star-btnl, .star-btnr {
+    float: left;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    cursor: hand;
+}
+.star-btnl {
+    background: url("../images/index.png") -72px -41px no-repeat;
+}
+.star-btnr {
+    float: right;
+    background: url("../images/index.png") 0px -41px no-repeat;
+}
+.star-btnl:hover, .star-btnr:hover {
+    opacity: 0.6;
+}
+.star ul {
+    float: left;
+    width: 1018px;
+}
+.star li {
+    position: relative;
+    float: left;
+    width: 297px;
+    height: 393px;
+    padding-right: 38px;
+}
+.star li img {
+    float: left;
+    width: 297px;
+    height: 296px;
+}
+.star a:hover div {
+    display: block;
+}
+.star li div {
+    position: absolute;
+    display: none;
+    width: 277px;
+    height: 296px;
+    padding-right: 20px;
+    background: url("../images/index.png") 0 -595px no-repeat;
+}
+.star h3 {
+    height: 24px;
+    margin: 80px 0 10px 40px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.star strong {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/index.png") -176px 0px no-repeat;
+}
+.star .star-word {
+    width: 220px;
+    height: 130px;
+    margin: 0px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+}
+.star li a {
+    display: block;
+    width: 100%;
+    height: 296px;
+}
+.star ul p {
+    width: 100%;
+    height: 26px;
+    margin-top: 25px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.star ul span {
+    padding-left: 22px;
+}
+/*就业明星样式  结束*/
+
+/*就业保障样式  开始*/
+.security {
+    position: relative;
+    height: 1472px;
+    background: #262633;
+}
+.advantage, .stu-info {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 0 auto;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 14px;
+    width: 350px;
+    height: 2px;
+    background: url("../images/index.png") 0px -223px;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+.security h3, .our-inv h3 {
+    width: 184px;
+    height: 26px;
+    margin: 0px auto 40px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 24px;
+}
+.ad-con {
+    width: 1070px;
+    padding: 50px 0 0 12px;
+}
+.advantage dl {
+    float: left;
+    width: 165px;
+    padding-right: 102px;
+}
+.advantage dt {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto 5px;
+    background: url("../images/index.png") 0px -112px no-repeat;
+}
+.ad-con h4 {
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 24px;
+}
+.ad-con p {
+    overflow: hidden;
+    height: 120px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.ad-con span {
+    display: block;
+}
+.analy dt {
+    background: url("../images/index.png") -103px -107px no-repeat;
+}
+.get-job dt {
+    background: url("../images/index.png") -218px -107px no-repeat;
+}
+.trace dt {
+    background: url("../images/index.png") -328px -107px no-repeat;
+}
+.condition {
+    position: relative;
+    width: 980px;
+    height: 540px;
+    margin: 0 auto;
+    background: url("../images/condition.png") 0px 52px no-repeat;
+}
+.con-show, .con-hidden {
+    position: relative;
+    width: 980px;
+    height: 450px;
+}
+.con-hidden {
+    display: none;
+}
+.con-show div, .con-hidden div {
+    position: absolute;
+    width: 196px;
+}
+.con-left {
+    top: 41px;
+    left: 16px;
+}
+.condition .con-right {
+    width: 198px;
+    top: -22px;
+    right: -20px;
+}
+.con-show h4, .con-hidden h4 {
+    height: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.con-show p, .con-hidden p {
+    line-height: 29px;
+    font-size: 18px;
+}
+.con-show span, .con-hidden span {
+    display: block;
+}
+.con-btnl, .con-btnr {
+    position: absolute;
+    bottom: 150px;
+    right: 120px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    cursor: hand;
+}
+.con-btnl {
+    right: 142px;
+    background: url("../images/index.png") -282px -10px;
+}
+.con-btnr {
+    right: 62px;
+    background: url("../images/index.png") -228px -9px;
+}
+.con-btnl:hover {
+    background: url("../images/index.png") -282px -57px;
+}
+.con-btnr:hover {
+    background: url("../images/index.png") -228px -56px;
+}
+.data {
+    position: absolute;
+    bottom: 58px;
+    right: 50px;
+    font-size: 16px;
+}
+.stu-info {
+    height: 278px;
+}
+.stu-info table {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+}
+/*就业保障样式  结束*/
+
+/*H5课程样式  开始*/
+.h5-course {
+    position: relative;
+    width: 100%;
+    height: 1012px;
+    background: #A6BC10;
+}
+.h5-linel, .h5-liner {
+    position: absolute;
+    top: 194px;
+    width: 128px;
+    height: 2px;
+    background: url("../images/index.png") -39px -16px no-repeat;
+}
+.h5-linel, .pro-linel {
+    left: -145px;
+}
+.h5-liner, .pro-liner {
+    right: -145px;
+}
+.h5-pic {
+    width: 800px;
+    height: 480px;
+    padding: 0 90px;
+    margin: 28px auto;
+}
+.h5-pic a {
+    display: block;
+}
+.h5-pic img {
+    float: left;
+    width: 100%;
+    box-shadow: 0px 4px 8px 0px #666;
+}
+.h5-info {
+    width: 800px;
+    height: 210px;
+    margin: 68px auto;
+}
+.h5-info a {
+    display: block;
+}
+.h5-info a:hover {
+    color: blue;
+}
+.h5-info div {
+    float: left;
+    width: 365px;
+    height: 54px;
+    margin-bottom: 30px;
+    line-height: 52px;
+    font-size: 24px;
+}
+.h5-info strong {
+    float: left;
+    display: block;
+    width: 54px;
+    height: 54px;
+    background: url("../images/index.png") -155px -45px no-repeat;
+}
+.h5-info span {
+    padding-left: 26px;
+}
+/*H5课堂样式  结束*/
+
+/*项目展示样式  开始*/
+.pro-show {
+    position: relative;
+    height: 1440px;
+    background: #EB5E44;
+}
+.pro-linel, .pro-liner {
+    position: absolute;
+    top: 194px;
+    width: 130px;
+    height: 2px;
+    background: url("../images/index.png") -38px -24px no-repeat;
+} 
+.pro-out {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+.prout {
+    width: 200%;
+}
+.pro-con {
+    float: left;
+    width: 980px;
+}
+.pro-con dl, .pro-move dl {
+    float: left;
+    width: 172px;
+    padding: 0 28px 60px 40px;
+}
+.pro-con dl a:hover, .pro-move dl a:hover {
+    color: blue;
+}
+.pro-con dd, .pro-move dd {
+    width: 100%;
+}
+.pro-con dt {
+    position: relative;
+}
+.pro-con dt:hover div {
+    display: block;
+}
+.pro-con dt a {
+    display: block;
+}
+.pro-con dt div {
+    display: none;
+    position: absolute;
+    top: 0px;
+    width: 172px;
+    height: 191px;
+    background: url("../images/index.png") -574px 0px no-repeat;
+}
+.pro-con dd h3, .pro-move dd h3 {
+    height: 20px;
+    margin: 18px 0 6px 0;
+    line-height: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.pro-out .pro-con p, .pro-move p {
+    width: 176px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    font-family: "Arial";
+}
+.move-linel, .move-liner {
+    position: absolute;
+    top: 36px;
+    width: 310px;
+    height: 2px;
+    background: url("../images/index.png") -6px -310px no-repeat;
+}
+.wrap .protit {
+   height: 50px;
+   line-height: 50px;
+}
+.move-linel {
+    left: -140px;
+}
+.move-liner {
+    right: -140px;
+}
+.pro-move {
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+.pro-move-two {
+    float: left;
+    width: 980px;
+}
+/*项目展示样式  结束*/
+
+/*讲师样式  开始*/
+.teachs {
+    position: relative;
+    height: 920px;
+    background: #312E2E;
+}
+.tea-linel, .tea-liner {
+    position: absolute;
+    top: 196px;
+    width: 120px;
+    height: 2px;
+    background: url("../images/index.png") -39px -32px no-repeat;
+}
+.tea-linel {
+    left: -145px;
+}
+.tea-liner {
+    right: -145px;
+}
+.tea-out {
+    overflow: hidden;
+    width: 980px;
+    height: 525px;
+    margin: 0 auto;
+}
+.tea-con {
+    width: 200%;
+}
+.tea-con dl {
+    float: left;
+    width: 980px;
+    padding-top: 40px;
+}
+.tea-con dt {
+    float: left;
+    width: 240px;
+    height: 460px;
+    padding: 25px 38px 0 78px;
+}
+.tea-con dt a {
+    display: block;
+    height: 100%;
+}
+.tea-con dt img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.tea-con dd {
+    float: left;
+    width: 496px;
+    padding-left: 128px;
+    background: url("../images/tea_line.png") 0 50px no-repeat;
+}
+.tea-con dd h3 {
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.tea-con dd ul {
+    margin-top: 25px;
+}
+.tea-con dd strong {
+    display: block;
+}
+.teachs .tea-txt {
+    width: 492px;
+    height: 100px;
+    margin: 55px 0 30px 0;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: left;
+}
+.teachs .tea-txt a:hover {
+    color: red;
+}
+.tea-con dd span {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #009cff;
+    font-size: 16px;
+}
+.tea-con dd span:hover {
+    color: red;
+}
+.tea-pro {
+    margin-top: 40px;
+}
+.tea-pro em {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: -40px;
+    background: url("../images/index.png") -359px -10px no-repeat;
+}
+.tea-pro li {
+    float: left;
+    width: 180px;
+    padding-right: 68px;
+}
+.tea-pro li a {
+    display: block;
+}
+.tea-pro img {
+    float: left;
+    width: 94px;
+    height: 94px;
+}
+.tea-pro h4 {
+    float: left;
+    height: 94px;
+    padding-left: 22px;
+    line-height: 94px;
+    font-size: 14px;
+}
+.tea-pro h4:hover {
+    color: red;
+}
+.teas {
+    height: 174px;
+    background: #333030;
+}
+.teas-con {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.tea-btnl, .tea-btnr {
+    float: left;
+    width: 42px;
+    height: 42px;
+    padding: 60px 0;
+}
+.tea-btnr {
+    float: right;
+}
+.tea-btnl div, .tea-btnr div {
+    height: 100%;
+    background: url("../images/index.png") -282px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnr div {
+    background: url("../images/index.png") -228px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnl div:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.tea-btnr div:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.teas-out {
+    overflow: hidden;
+    float: left;
+    width: 876px;
+    height: 144px;
+    padding-top: 30px;
+}
+.teas ul {
+    width: 200%;
+}
+.teas ul li {
+    float: left;
+    width: 106px;
+    height: 106px;
+    padding: 0 20px 0 45px;
+}
+.teas ul li div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #262323;
+}
+.teas ul img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    cursor: hand;
+}
+.teas ul li:hover div {
+    background: #fff;
+}
+/*讲师样式  结束*/
+
+/*关于我们样式  开始*/
+.our {
+    position: relative;
+    height: 1090px;
+    background: #2651aa;
+}
+.our-linel, .our-liner {
+    position: absolute;
+    top: 15px;
+    width: 200px;
+    height: 2px;
+    background: url("../images/index.png") -5px -253px no-repeat;
+}
+.our-linel {
+    left: 0;
+}
+.our-liner {
+    right: 0;
+}
+.our-inv {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.our-out {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    margin: 0 auto;
+}
+.our-pics {
+    width: 400%;
+}
+.our-btn {
+    position: absolute;
+    top: 157px;
+    width: 944px;
+    height: 42px;
+    padding: 0 18px;
+}
+.our-btnl {
+    float: left;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -282px -8px no-repeat;
+}
+.our-btnr {
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -228px -8px no-repeat;
+}
+.our-btnl:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.our-btnr:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.our-pics img {
+    float: left;
+    width: 980px;
+    height: 352px;
+}
+.min-pics div {
+    position: relative;
+    float: left;
+    width: 245px;
+}
+.min-pics img {
+    float: left;
+    width: 100%;
+    -webkit-user-select: none;
+    cursor: pointer;
+    cursor: hand;
+}
+.min-pics p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.min-pics span {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    z-index: 20;
+}
+.our-list {
+    overflow: hidden;
+    width: 980px;
+    height: 240px;
+    margin: 50px auto;
+}
+.ourlist-out {
+    width: 1020px;
+}
+.ourlist-con {
+    float: left;
+    overflow: hidden;
+    width: 270px;
+    height: 100%;
+    padding-right: 70px;
+}
+.ourlist-con h3 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.ourlist-con li {
+    float: left;
+    height: 25px;
+    padding-bottom: 14px;
+}
+.ourlist-con div {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    background: #0a2252;
+}
+.ourlist-con ul a {
+    overflow: hidden;
+    float: left;
+    width: 224px;
+    height: 25px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-break: keep-all;    /* 不换行 */
+    white-space: nowrap;    /* 不换行 */
+}
+.ourlist-con a:hover {
+    color: red;
+}
+.ourlist-con li:hover div {
+    background: red;
+}
+/*关于我们样式  结束*/

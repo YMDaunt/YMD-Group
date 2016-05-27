@@ -1,0 +1,466 @@
+/* 头部样式处理 */
+.wrap .head-out {
+    height: 88px;
+    background: #eb5e44;
+}
+.home div {
+    background: url("../images/common.png") 0 -62px no-repeat;
+}
+.project {
+    color: #ff8100;
+}
+.tits .project div {
+    background: url("../images/common.png") -142px -22px no-repeat;
+}
+.tits-out .tits .job div {
+    background: url("../images/common.png") -70px -62px no-repeat;
+}
+.head {
+    height: 84px;
+    margin: 0 auto;   
+    border-bottom: 4px solid rgba(96, 83, 78, 0.5);
+}
+/* 实战项目 开始*/
+.pro-wrap {
+    min-width: 980px;
+    background: #eb5e44;
+}
+.pro-cont {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.security {
+    position: relative;
+}
+.advantage, .stu-info {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 18px;
+    width: 350px;
+    height: 2px;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+.security h3, .our-inv h3 {
+    width: 184px;
+    height: 30px;
+    margin: 0px auto 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.ad-con {
+    width: 1070px;
+    padding: 50px 0 0 12px;
+}
+.advantage dl {
+    float: left;
+    width: 165px;
+    padding-right: 102px;
+}
+.advantage dt {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto 5px;
+    background: url("../images/index.png") 0px -112px no-repeat;
+}
+.ad-con h4 {
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 24px;
+}
+.ad-con p {
+    overflow: hidden;
+    height: 120px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.ad-con span {
+    display: block;
+}
+.analy dt {
+    background: url("../images/index.png") -103px -107px no-repeat;
+}
+.get-job dt {
+    background: url("../images/index.png") -218px -107px no-repeat;
+}
+.trace dt {
+    background: url("../images/index.png") -328px -107px no-repeat;
+}
+.condition {
+    position: relative;
+    width: 980px;
+    height: 540px;
+    margin: 0 auto;
+    background: url("../images/condition.png") 0px 52px no-repeat;
+}
+.con-show, .con-hidden {
+    position: relative;
+    width: 980px;
+    height: 450px;
+}
+.con-hidden {
+    display: none;
+}
+.con-show div, .con-hidden div {
+    position: absolute;
+    width: 196px;
+}
+.con-left {
+    top: 41px;
+    left: 16px;
+}
+.condition .con-right {
+    width: 198px;
+    top: -22px;
+    right: -20px;
+}
+.con-show h4, .con-hidden h4 {
+    height: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.con-show p, .con-hidden p {
+    line-height: 29px;
+    font-size: 18px;
+}
+.con-show span, .con-hidden span {
+    display: block;
+}
+.con-btnl, .con-btnr {
+    position: absolute;
+    bottom: 150px;
+    right: 120px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    cursor: hand;
+}
+.con-btnl {
+    right: 142px;
+    background: url("../images/index.png") -282px -10px;
+}
+.con-btnr {
+    right: 62px;
+    background: url("../images/index.png") -228px -10px;
+}
+.con-btnl:hover {
+    background: url("../images/index.png") -282px -57px;
+}
+.con-btnr:hover {
+    background: url("../images/index.png") -228px -57px;
+}
+.data {
+    position: absolute;
+    bottom: 58px;
+    right: 50px;
+    font-size: 16px;
+}
+.stu-info {
+    height: 278px;
+}
+.stu-info table {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+}
+/* 标题 */
+.pro-cont h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.pro-tit div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+    background: url("../images/common.png") -142px -22px no-repeat;
+}
+.pro-wrap .se-linel, .pro-wrap .se-liner {
+    background: url("../images/job.png") 0 -368px no-repeat;
+}
+/* 标题 结束 */
+
+/* 项目列表 */
+.pro-tabel {
+    position: relative;
+}
+.protab-cont {
+	width: 960px;
+	margin: 0 10px;
+}
+.protab-cont dl {
+    position: relative;
+    width: 960px;
+    margin-top: 36px;
+    padding-bottom: 41px;
+}
+.protab-cont dd {
+	float: left;
+	padding-left: 5px;
+}
+.protab-cont dd a {
+    float: left;
+}
+.protab-cont dd img {
+    float: left;
+    width: 173px;
+    height: 189px;
+}
+.proc-more {
+    position: absolute;
+    display: none;
+    width: 173px;
+    height: 189px;
+    top: 0;
+    left: 5px;
+    background: url("../images/tab_pic1.png") 0 0 no-repeat;
+}
+.protab-cont dd:hover a {
+    display: block;
+}
+.protab-cont dt {
+	float: left;
+    width: 746px;
+    height: 176px;
+    padding-left: 36px;
+}
+.protab-cont dt a:hover {
+    color: #000;
+}
+.protab-cont dt h4 {
+    margin-top: 9px;
+    font-size: 20px;
+}
+.protab-cont dt span {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 24px;
+}
+.protab-cont p {
+    float: left;
+	width: 632px;
+	font-size: 16px;
+	line-height: 28px;
+}
+.protab-more {
+    float: left;
+    width: 68px;
+    height: 30px;
+    margin: 24px 0 0 44px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #d12c2a;
+    font-family: Arial;
+    cursor: pointer;
+}
+.protab-more:hover {
+    color: #000;
+}
+/* 项目列表 结束 */
+
+/* 技术团队 */
+
+.pro-cont .teas {
+    position: relative;
+    height: 284px;
+    margin-top: 16px;
+    background: #eb5e44;
+}
+.pro-cont .teas-out {
+    height: 160px;
+    padding-top: 0;
+    margin-top: -4px;
+}
+.teas-con .teas-out li {
+    height: 160px;
+}
+.teas-con .teas-out div {
+    width: 106px;
+    height: 106px;
+}
+.teas-out p {
+    display: block;
+    margin-top: 17px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.teas-out span {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.teas-out li a:hover {
+    color: #000;
+}
+.teas {
+    height: 174px;
+    background: #333030;
+}
+.teas-con {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.tea-btnl, .tea-btnr {
+    float: left;
+    width: 42px;
+    height: 42px;
+    padding: 30px 0;
+}
+.tea-btnr {
+    float: right;
+}
+.tea-btnl div, .tea-btnr div {
+    height: 100%;
+    background: url("../images/index.png") -282px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnr div {
+    background: url("../images/index.png") -228px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnl div:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.tea-btnr div:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.teas-out {
+    overflow: hidden;
+    float: left;
+    width: 876px;
+    height: 144px;
+    padding-top: 30px;
+}
+.teas ul {
+    width: 200%;
+}
+.teas ul li {
+    float: left;
+    width: 106px;
+    height: 106px;
+    padding: 0 20px 0 45px;
+}
+.teas ul li div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #262323;
+}
+.teas ul img {
+    float: left;
+    width: 100%;
+}
+.teas ul li:hover div {
+    background: #fff;
+}
+/* 技术团队 结束*/
+
+/* 项目活动 */
+
+.job-act {
+    position: relative;
+    margin-top: 38px;
+}
+.ja-tit {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.ja-tit1 {
+    float: left;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-tit2 {
+    float: right;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-cont1, .ja-cont2 {
+    overflow: hidden;
+    width: 960px;
+    height: 243px;
+    margin: 8px 10px 0;
+    padding-bottom: 62px;
+}
+.ja-btn1 {
+    position: absolute;
+    top: 299px;
+    left: 10px;
+    cursor: pointer;
+}
+.ja-btn2 {
+    position: absolute;
+    top: 299px;
+    left: 936px;
+    cursor: pointer;
+}
+.ja-cont1 ul, .ja-cont2 ul  {
+    width: 2058px;
+}
+.ja-cont1 li, .ja-cont2 li {
+    float: left;
+    width: 275px;
+    height: 240px;
+    margin-right: 68px;
+}
+.ja-cont1 li img, .ja-cont2 li img {
+    float: left;
+    width: 275px;
+    height: 150px;
+}
+.ja-cont1 .ja-link, .ja-cont2 .ja-link {
+    display: block;
+    width: 275px;
+    margin: 33px 0;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.ja-cont1 .ja-link:hover, .ja-cont2 .ja-link:hover {
+    color: #ff7214;
+}
+.star-btnl, .ja-btn1 {
+    width: 34px;
+    height: 54px;
+    background: url("../images/job.png") -353px -197px no-repeat;
+}
+.star-btnr, .ja-btn2 {
+    width: 35px;
+    height: 55px;
+    background: url("../images/job.png") -400px -197px no-repeat;
+}
+.star-btnl:hover, .ja-btn1:hover {
+    background: url("../images/job.png") -41px -114px no-repeat;
+}
+.star-btnr:hover, .ja-btn2:hover {
+    background: url("../images/job.png") -92px -114px no-repeat;
+}
+
+/* 项目活动 结束 */
