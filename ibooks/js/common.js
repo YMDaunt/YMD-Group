@@ -68,21 +68,17 @@
 
     /*
      * 功能：大图渐变效果
-     * 参数：imgparent：img的父级， bord：蒙版， imgName：图片的名称， btnLeft：左按钮
+     * 参数：imgparent：img的父级， bord：蒙版,  btnLeft：左按钮
      *       btnRight：右按钮， img：获取大图的图片标签
-     * demo: changeImg('.en-lit-pic li', 'div', 'environment_', '.en-big-pic .btn-left',
-     *        '.en-big-pic .btn-right', '.en-big-pic img')
+     * demo: changeImg('.min-pics div', 'p', '.our-btnl', '.our-btnr', '.our-out img');
      * 负责人：吴肖琪
      */
-  function changeImg(imgparent, bord, imgName, btnLeft, btnRight, img){
-
-        var mark = 1; // 图片序号从1开始
+    function changeImg(imgparent, bord, btnLeft, btnRight, img){
+        var mark = 0; 
         var maxMark = $(imgparent).length;
         var nowClick = null;
         var btnClick = false;
-        var timer = null;
-        $(imgparent).eq(0).children(bord).css('display', 'none');
-
+        var timer = setInterval(change, 4000);
         // 缩略图鼠标移入、移出
         $(imgparent).hover(function(){
             $(this).children(bord).css('display', 'none');
@@ -91,20 +87,24 @@
                 $(this).children(bord).css('display', 'block');
             }
             if (nowClick != null) {
-                nowClick = null;      
-                timer = setTimeout(change, 1000); 
+                nowClick = null;
+                mark++;
+                if (mark >= maxMark) {
+                    mark = 0;
+                }
+                change();
+                timer = setInterval(change, 4000);      
             }
         })
         // 缩略图鼠标点击事件
         $(imgparent).click(function(){
             clearTimeout(timer);
-            mark = $(this).index() + 1;
+            mark = $(this).index();
             $(this).children(bord).css('display', 'none');
             $(this).siblings().children(bord).css('display', 'block');
-            $(img)[0].src = '../images/' + imgName + mark + '.png';
+            $(img).eq(mark).stop(true).fadeIn(2000).siblings('img').stop(true).fadeOut(2000);
             nowClick = $(this).index();
         })
-
         // 左按钮移入、移出事件
         $(btnLeft).hover(function(){
             $(this).css('background', 'url("../images/scroll.png") -11px -49px');
@@ -112,7 +112,12 @@
             $(this).css('background', 'url("../images/scroll.png") -11px -7px');
             if (btnClick) {
                 btnClick = false;      
-                timer = setTimeout(change, 1000); 
+                mark += 2;
+                if (mark >= maxMark) {
+                    mark = 0;
+                }
+                change();
+                timer = setInterval(change, 4000);      
             }
         })
         // 右按钮移入、移出事件
@@ -122,51 +127,54 @@
             $(this).css('background', 'url("../images/scroll.png") -63px -7px');
             if (btnClick) {
                 btnClick = false;      
-                timer = setTimeout(change, 1000); 
+                change();
+                timer = setInterval(change, 4000);      
             }
         })
-
         // 左按钮点击事件
-        $(btnLeft).click(function(e){
+        $(btnLeft).click(function(){
             clearTimeout(timer);
-            mark --;
-            if (mark < 1) {
-                mark = maxMark;
+            if (!btnClick) {
+                mark -= 2;
             }
-            $(imgparent).eq(mark - 1).children(bord).css('display', 'none');
-            $(imgparent).eq(mark - 1).siblings().children(bord).css('display', 'block');
-            $(img)[0].src = '../images/' + imgName + mark + '.png';
+            if (mark < 0) {
+                mark = maxMark - 1;
+            }
+            $(imgparent).eq(mark).children(bord).css('display', 'none');
+            $(imgparent).eq(mark).siblings().children(bord).css('display', 'block');
+            $(img).eq(mark).stop(true,true).fadeIn(2000).siblings('img').stop(true,true).fadeOut(2000);
+            mark--;
+            if ( mark >= maxMark) {
+                mark = 0;
+            }  
             btnClick = true;
         })
         // 右按钮点击事件
         $(btnRight).click(function(){
             clearTimeout(timer);
-            mark ++;
-            if (mark > maxMark) {
-                mark = 1;
+            if (mark >= maxMark) {
+                mark = 0;
             }
-            $(imgparent).eq(mark - 1).children(bord).css('display', 'none');
-            $(imgparent).eq(mark - 1).siblings().children(bord).css('display', 'block');
-            $(img)[0].src = '../images/' + imgName + mark + '.png';
+            $(imgparent).eq(mark).children(bord).css('display', 'none');
+            $(imgparent).eq(mark).siblings().children(bord).css('display', 'block');
+            $(img).eq(mark).stop(true,true).fadeIn(2000).siblings('img').stop(true,true).fadeOut(2000);
+            mark++;
+            if ( mark >= maxMark) {
+                mark = 0;
+            }
             btnClick = true;
         })
         // 主功能函数
         function change() {
-            $(img).fadeOut(3000, function(){
-                mark++;
-                if ( mark > maxMark) {
-                    mark = 1;
-                }
-                $(this)[0].src = '../images/' + imgName + mark + '.png';
-                $(imgparent).eq(mark - 1).children(bord).css('display', 'none');
-                $(imgparent).eq(mark - 1).siblings().children(bord).css('display', 'block');
-                $(this).fadeIn(1000, function(){
-                    if (nowClick == null && btnClick == false) {
-                        timer = setTimeout(change, 1000); 
-                    }
-                });
-            })
-        } change();
+            $(imgparent).eq(mark).children(bord).css('display', 'none');
+            $(imgparent).eq(mark).siblings().children(bord).css('display', 'block');
+            $(img).eq(mark).stop(true,true).fadeIn(2000).siblings('img').stop(true,true).fadeOut(2000);
+            mark++;
+            if ( mark >= maxMark) {
+                mark = 0;
+            }
+        }
+        change();
     }
 
     /*

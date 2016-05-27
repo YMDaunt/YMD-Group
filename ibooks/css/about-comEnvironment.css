@@ -98,7 +98,8 @@
   height: 352px;
 }
 .en-big-pic img {
-  display: block;
+  position: absolute;
+  display: none;
   width: 960px;
   height: 352px;
 }
@@ -109,6 +110,7 @@
   width: 39px;
   height: 39px;
   background: url("../images/scroll.png") -11px -7px;
+  z-index: 77;
 }
 .en-big-pic .btn-right {
   position: absolute;
@@ -117,6 +119,7 @@
   width: 39px;
   height: 39px;
   background: url("../images/scroll.png") -63px -7px;
+  z-index: 77;
 }
 .en-lit-pic ul {
   width: 970px;

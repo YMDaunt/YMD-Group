@@ -394,12 +394,16 @@
     width: 960px;
     margin: 0 10px;
 }
-.our-pics {
-    width: 400%;
+.our-out a {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 352px;
 }
-.our-pics img {
-    float: left;
-    width: 960px;
+.our-out img {
+    position: absolute;
+    display: none;
+    width: 980px;
     height: 352px;
 }
 .min-pics img {

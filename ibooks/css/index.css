@@ -748,9 +748,6 @@
     width: 980px;
     margin: 0 auto;
 }
-.our-pics {
-    width: 400%;
-}
 .our-btn {
     position: absolute;
     top: 157px;
@@ -776,8 +773,15 @@
 .our-btnr:hover {
     background: url("../images/index.png") -228px -55px no-repeat;
 }
-.our-pics img {
-    float: left;
+.our-out a {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 352px;
+}
+.our-out img {
+    position: absolute;
+    display: none;
     width: 980px;
     height: 352px;
 }
