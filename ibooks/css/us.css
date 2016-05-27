@@ -1,6 +1,5 @@
 /* 头部样式处理 */
 .wrap .head-out {
-    height: 88px;
     background: #2752aa;
 }
 .home div {
@@ -10,7 +9,6 @@
     background: url("../images/common.png") -212px -22px no-repeat;
 }
 .head {
-    height: 84px;
     margin: 0 auto;   
     border-bottom: 4px solid rgba(96, 83, 78, 0.5);
 }
@@ -46,6 +44,7 @@
 }
 .us-wrap {
     min-width: 980px;
+    padding-top: 114px;
     background: #2752aa;
 }
 .us-cont .security {
@@ -71,7 +70,7 @@
     background: url("../images/common.png") -212px -22px no-repeat;
 }
 .us-wrap .se-linel, .us-wrap .se-liner {
-    background: url("../images/job.png") 0 -404px no-repeat;
+    background: url("../images/job.png") 1px -404px no-repeat;
 }
 /* 标题 结束 */
 

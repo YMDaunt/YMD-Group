@@ -1,6 +1,5 @@
 /* 头部样式处理 */
 .wrap .head-out {
-    height: 88px;
     background: #282f3b;
 }
 .tits .study div {
@@ -10,7 +9,6 @@
     color: #FF8100;
 }
 .head {
-    height: 84px;
     margin: 0 auto;   
     border-bottom: 4px solid rgba(96, 83, 78, 0.5);
 }
@@ -25,6 +23,7 @@
 }
 .stu-wrap {
     min-width: 980px;
+    padding-top: 114px;
     background: #282f3b;
 }
 .stu-cont .security {
@@ -50,6 +49,7 @@
     top: 15px;
     width: 350px;
     height: 2px;
+    background: url("../images/job.png") 1px -444px no-repeat;
 }
 .se-linel {
     left: 0;

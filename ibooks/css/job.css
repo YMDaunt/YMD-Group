@@ -6,11 +6,7 @@
 .job {
     color: #FF8100;
 }
-.head-out {
-    height: 84px;
-}
 .head {
-    height: 84px;
     margin: 0 auto;   
     border-bottom: 4px solid rgba(96, 83, 78, 0.5);
 }
@@ -40,7 +36,7 @@
     background: url("../images/common.png") -70px -22px no-repeat;
 }
 .job-wrap .se-linel, .job-wrap .se-liner {
-    background: url("../images/job.png") 0 -329px no-repeat;
+    background: url("../images/job.png") 1px -329px no-repeat;
 }
 .security {
     position: relative;

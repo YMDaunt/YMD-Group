@@ -5,6 +5,9 @@
 .course	{
 	color: #FF8100;
 }
+.head {
+	border-bottom: 4px solid rgba(244, 244, 244, 0.5);
+}
 .course div{
 	background: url("../images/common.png") -34px -22px no-repeat;
 }
@@ -18,7 +21,7 @@
 }
 .con .tit {
 	height: 31px;
-	padding: 37px 0px 0px 13px;
+	padding: 141px 0px 0px 13px;
 }
 .tit em {
 	float: left;
