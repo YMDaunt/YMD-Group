@@ -1,4 +1,11 @@
-   
+    /* 
+     * 导航栏的border-bottom临界消失
+     */
+    if ($(window).scrollTop() >= 400) {
+        $('.head').css({
+            'border-bottom' : 0
+        })
+    }
     /*
      * 功能：图片滚动
      * 参数：eleShow(内容区), eleChild(滚动的对象), eleCon(显示区), num(内容超出值), eleWidth(滚动对象宽度), btnl(左按钮)，btnr(右按钮)

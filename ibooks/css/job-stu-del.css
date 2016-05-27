@@ -62,15 +62,11 @@
 	padding: 32px 10px 0;
 }
 .star .con img {
-	width: 670px;
-	height: 308px;
-	border-radius: 5px;
-}
-.con dt a {
-	display: block;
+	float: left;
 	width: 670px;
 	height: 308px;
 	margin-bottom: 37px;
+	border-radius: 5px;
 }
 .con dd {
 	color: #3c3c3c;
@@ -222,6 +218,9 @@
 	text-align: center;
 	line-height: 30px;
 	background: #e88079;
+}
+.active .more:hover {
+	color: #000;
 }
 
 /*更多学员*/
