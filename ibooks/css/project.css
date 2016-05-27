@@ -23,6 +23,7 @@
 /* 实战项目 开始*/
 .pro-wrap {
     min-width: 980px;
+    padding-top: 114px;
     background: #eb5e44;
 }
 .pro-cont {
