@@ -1,10 +1,17 @@
     /* 
      * 导航栏的border-bottom临界消失
      */
-    if ($(window).scrollTop() >= 400) {
-        $('.head').css({
-            'border-bottom' : 0
-        })
+    $(window).scroll(changeborder);
+    function changeborder() {
+        if ($(window).scrollTop() >= 600) {
+            $('.head').css({
+                'border' : 0
+            })
+        } else {
+            $('.head').css({
+                'border-bottom' : '4px solid rgba(96, 83, 78, 0.5)'
+            })
+        }
     }
     /*
      * 功能：图片滚动
