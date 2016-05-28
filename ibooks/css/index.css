@@ -362,11 +362,30 @@
 .stu-info {
     height: 278px;
 }
-.stu-info table {
-    margin-left: 20px;
+.scroll-tit {
+    height: 36px;
+    color: #fff;
+    line-height: 36px;
     font-size: 18px;
-    line-height: 35px;
-    text-align: left;
+}
+.stu-scroll {
+    height: 180px;
+}
+.stu-scroll ul {
+    overflow: hidden;
+    height: 144px;
+}
+.stu-scroll li {
+    float: left;
+    height: 36px;
+}
+.stu-scroll span {
+    float: left;
+    overflow: hidden;
+    height: 36px;
+    color: #fff;
+    line-height: 36px;
+    font-size: 18px; 
 }
 /*就业保障样式  结束*/
 
