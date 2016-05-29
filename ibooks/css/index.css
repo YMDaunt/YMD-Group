@@ -294,40 +294,46 @@
     width: 980px;
     height: 540px;
     margin: 0 auto;
-    background: url("../images/condition.png") 0px 52px no-repeat;
 }
-.con-show, .con-hidden {
-    position: relative;
+.con-show1 {
+     background: url("../images/condition_JAVA.png") 0px 52px no-repeat;
+}
+.con-show2 {
+     background: url("../images/condition_PHP.png") 0px 52px no-repeat;
+}
+.con-show3 {
+     background: url("../images/condition_PS.png") 0px 52px no-repeat;
+}
+.con-show1, .con-show2, .con-show3 {
+    position: absolute;
     width: 980px;
     height: 450px;
 }
-.con-hidden {
-    display: none;
-}
-.con-show div, .con-hidden div {
+
+.con-show1 div, .con-show2 div, .con-show3 div {
     position: absolute;
     width: 196px;
 }
 .con-left {
-    top: 41px;
+    top: 110px;
     left: 16px;
 }
 .condition .con-right {
     width: 198px;
-    top: -22px;
+    top: 50px;
     right: -20px;
 }
-.con-show h4, .con-hidden h4 {
+.con-show1 h4, .con-show2 h4, .con-show3 h4 {
     height: 24px;
     margin-bottom: 24px;
     line-height: 24px;
     font-size: 24px;
 }
-.con-show p, .con-hidden p {
+.con-show1 p, .con-show2 p, .con-show3 p {
     line-height: 29px;
     font-size: 18px;
 }
-.con-show span, .con-hidden span {
+.con-show1 span, .con-show2 span, .con-show3 span {
     display: block;
 }
 .con-btnl, .con-btnr {
