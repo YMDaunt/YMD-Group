@@ -1,0 +1,513 @@
+/* 头部样式处理 */
+.wrap .head-out {
+    background: #282f3b;
+}
+.tits .study div {
+    background: url("../images/common.png") -178px -22px no-repeat;
+}
+.tits .study {
+    color: #FF8100;
+}
+.head {
+    margin: 0 auto;   
+    border-bottom: 4px solid rgba(96, 83, 78, 0.5);
+}
+/* 学习园地 开始*/
+
+.security h3 {
+    width: 100%;
+    margin: 0px auto 40px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.stu-wrap {
+    min-width: 980px;
+    padding-top: 114px;
+    background: #282f3b;
+}
+.stu-cont .security {
+    background: #282f3b;
+}
+.stu-cont {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+.security {
+    position: relative;
+}
+.advantage, .stu-info {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 15px;
+    width: 350px;
+    height: 2px;
+    background: url("../images/job.png") 1px -444px no-repeat;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+/* 标题 */
+.stu-cont h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.stu-tit div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+    background: url("../images/common.png") -178px -22px no-repeat;
+}
+/* 标题 结束 */
+
+/* 学员活动 */
+
+.ja-cont .ja-link {
+    margin-bottom: 26px;
+}
+.stu-cont .ja-cont {
+    height: 365px;
+    padding-bottom: 44px;
+}
+.ja-cont p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.ja-more2 {
+    display: block;
+    width: 68px;
+    height: 30px;
+    margin: 30px auto 0;
+    border-radius: 5px;
+    background: #e88079;
+    font-family: Arial;
+    line-height: 30px;
+    text-align: center;
+}
+.ja-cont a:hover {
+    color: #ff8100;
+}
+.ja-cont .ja-more2:hover {
+    color: #000;
+}
+.job-act {
+    position: relative;
+    margin-top: 38px;
+}
+.ja-tit {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.ja-tit1 {
+    float: left;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-tit2 {
+    float: right;
+    width: 347px;
+    height: 30px;
+    background: url("../images/job.png") 0 -314px no-repeat;
+}
+.ja-cont {
+    overflow: hidden;
+    width: 960px;
+    height: 243px;
+    margin: 8px 10px 0;
+    padding-bottom: 62px;
+}
+.ja-btn1 {
+    position: absolute;
+    top: 299px;
+    left: 10px;
+    cursor: pointer;
+}
+.ja-btn2 {
+    position: absolute;
+    top: 299px;
+    left: 936px;
+    cursor: pointer;
+}
+.ja-cont ul {
+    width: 2058px;
+}
+.ja-cont ul li {
+    float: left;
+    width: 275px;
+    height: 365px;
+    margin-right: 68px;
+}
+.ja-cont li img {
+    float: left;
+    width: 275px;
+    height: 150px;
+}
+.ja-link {
+    display: block;
+    width: 275px;
+    margin: 33px 0;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.ja-link:hover {
+    color: #ff7214;
+}
+.star-btnl, .ja-btn1 {
+    width: 34px;
+    height: 54px;
+    background: url("../images/job.png") -353px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnr, .ja-btn2 {
+    width: 35px;
+    height: 55px;
+    background: url("../images/job.png") -400px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnl:hover, .ja-btn1:hover {
+    background: url("../images/job.png") -41px -114px no-repeat;
+}
+.star-btnr:hover, .ja-btn2:hover {
+    background: url("../images/job.png") -92px -114px no-repeat;
+}
+
+/* 学员活动 结束 */
+
+/* 学习环境 */
+
+.our-inv {
+    position: relative;
+    margin-top: 18px; 
+}
+.our-out, .min-pics {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    margin: 0 10px;
+}
+.our-out a {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 352px;
+}
+.our-out img {
+    position: absolute;
+    display: none;
+    width: 980px;
+    height: 352px;
+}
+.min-pics img {
+    width: 240px;
+}
+.our {
+    position: relative;
+    height: 1090px;
+    background: #2651aa;
+}
+.our-linel, .our-liner {
+    position: absolute;
+    top: 15px;
+    width: 200px;
+    height: 2px;
+    background: url("../images/index.png") -5px -253px no-repeat;
+}
+.our-linel {
+    left: 0;
+}
+.our-liner {
+    right: 0;
+}
+.our-inv {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.our-btn {
+    position: absolute;
+    top: 157px;
+    width: 924px;
+    height: 42px;
+    padding: 0 18px;
+    cursor: pointer;
+}
+.our-btnl {
+    float: left;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -282px -8px no-repeat;
+}
+.our-btnr {
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -228px -8px no-repeat;
+}
+.our-btnl:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.our-btnr:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.min-pics div {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 162px;
+}
+.min-pics p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.min-pics span {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    z-index: 20;
+}
+.min-pics div:nth-child(1) p {
+    display: none;
+}
+.min-pics div:hover p {
+    display: none;
+}
+.our-list {
+    overflow: hidden;
+    width: 980px;
+    height: 240px;
+    margin: 50px auto;
+}
+.ourlist-out {
+    width: 1020px;
+}
+.ourlist-con {
+    float: left;
+    overflow: hidden;
+    width: 270px;
+    height: 100%;
+    padding-right: 70px;
+}
+.ourlist-con h3 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.ourlist-con li {
+    float: left;
+    height: 25px;
+    padding-bottom: 14px;
+}
+.ourlist-con div {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    background: #0a2252;
+}
+.ourlist-con a {
+    overflow: hidden;
+    float: left;
+    width: 224px;
+    height: 25px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-break: keep-all;    /* 不换行 */
+    white-space: nowrap;    /* 不换行 */
+}
+.ourlist-con a:hover {
+    color: red;
+}
+.ourlist-con li:hover div {
+    background: red;
+}
+/* 学习环境 结束*/
+
+/* 优秀学员 */
+.star {
+    margin-top: 62px;
+    background: #282f3b;
+}
+.star-out {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.star-con {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 347px;
+}
+.staru-out, .stard-out {
+    float: left;
+    overflow: hidden;
+    width: 297px;
+    height: 347px;
+    margin: 0 15px 0 10px;
+}
+.star ul {
+    width: 2238px;
+}
+.star li {
+    position: relative;
+    float: left;
+    width: 297px;
+    height: 393px;
+}
+.star li img {
+    float: left;
+    width: 297px;
+    height: 296px;
+}
+.star li:hover div {
+    display: block;
+}
+.star li div {
+    position: absolute;
+    display: none;
+    width: 277px;
+    height: 296px;
+    padding-right: 20px;
+    background: url("../images/index.png") 0 -595px no-repeat;
+}
+.star-con h4 {
+    height: 24px;
+    margin: 80px 0 10px 40px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.star strong {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: url("../images/index.png") -176px 0px no-repeat;
+}
+.star .star-word {
+    width: 220px;
+    height: 130px;
+    margin: 0px;
+    padding-left: 40px;
+    line-height: 28px;
+    font-size: 16px;
+    text-align: left;
+}
+.star li a {
+    display: block;
+    width: 100%;
+    height: 296px;
+}
+.star ul p {
+    width: 100%;
+    height: 26px;
+    margin-top: 25px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 24px;
+}
+.star ul span {
+    padding-left: 22px;
+}
+.star-btns {
+    width: 960px;
+    height: 54px;
+    margin-bottom: 40px;
+}
+.star-btnr {
+    float: right;
+}
+.star-btnl {
+    float: left;
+}
+.star-btnl, .ja-btn1 {
+    width: 34px;
+    height: 54px;
+    background: url("../images/job.png") -353px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnr, .ja-btn2 {
+    width: 35px;
+    height: 55px;
+    background: url("../images/job.png") -400px -197px no-repeat;
+    cursor: pointer;
+}
+.star-btnl:hover, .ja-btn1:hover {
+    background: url("../images/job.png") -41px -114px no-repeat;
+}
+.star-btnr:hover, .ja-btn2:hover {
+    background: url("../images/job.png") -92px -114px no-repeat;
+}
+/* 优秀学员 结束 */
+
+/* 博文推荐 */
+
+.post-recom {
+    position: relative;
+    margin-top: 27px;
+}
+.post-con {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 10px 80px;
+}
+.post-box {
+    width: 200%;
+}
+.post-con ul {
+    float: left;
+    width: 360px;
+    height: 160px;
+    margin-right: 142px; 
+}
+.post-con li a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+    width: 360px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.post-con li a:hover {
+    color: #ff8100;
+}
+.us-cont .ad-con {
+    padding: 12px 0 38px 0;
+}
+/* 博文推荐 结束 */
+
+/* 学习园地 结束 */

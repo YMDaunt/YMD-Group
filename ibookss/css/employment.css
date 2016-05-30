@@ -1,0 +1,223 @@
+@charset 'utf-8';
+.head-out {
+	background: #262633;
+}
+.job div{
+    background: url(../images/common.png) -70px -22px no-repeat;
+}
+.job {
+	color: #FF8100;
+}
+/*左侧内容开始*/
+.content {
+	min-width: 980px;
+	_width: 100%;
+	background: url(../images/jop-1.png) repeat; 
+}
+.con {
+	width: 980px;
+	margin: 0 auto;
+}
+.sidebar {
+	float: left;
+	width: 688px;
+	padding: 0 15px 145px 0;
+	border-right: 1px solid #e0e0e0;
+}
+.sidebar .tit {
+	height: 95px;
+	padding-top: 37px;
+	border-bottom: 4px solid #ffa18f;
+}
+.tit dl {
+	height: 31px;
+	margin: 0 0 19px 11px;
+}
+.tit dl dt{
+	float: left;
+	width: 31px;
+	height: 31px;
+	margin-right: 27px;
+	background: url(../images/common.png) -70px -22px no-repeat;
+}
+.tit dl dd {
+	float: left;
+	overflow: hidden;
+	width: 103px;
+	height: 31px;
+	line-height: 31px;
+}
+.tit dl dd em {
+	float: left;
+	color: #3c3c3c;
+	font-size: 14px;
+}
+.tit dl dd a {
+	float: left;
+	color: #3c3c3c;
+	font-size: 14px;
+}
+.tit dl dd a:hover {
+	text-decoration: underline;
+}
+.tit h2 {
+	overflow: hidden;
+	width: 120px;
+	height: 30px;
+	margin-left: 8px;
+	color: #3c3c3c;
+	line-height: 30px;
+	font-size: 30px;
+}
+.new {
+	padding: 20px 0 7px;
+	border-bottom: 4px solid #ffa18f;
+}
+.new .new-con {
+	height: 158px;
+	margin-bottom: 23px;
+	padding-left: 8px;
+}
+.new-con h3 a {
+	display: block;
+	overflow: hidden;
+	width: 126px;
+	height: 40px;
+	color: #3c3c3c;
+	line-height: 40px;
+	font-size: 18px;
+}
+.new-con p, .new-con span, .new-con strong { 
+	color: #3c3c3c;
+	line-height: 24px;
+	font-size: 14px;
+}
+.new-con p {
+	overflow: hidden;
+	width: 153px;
+	height: 24px;
+}
+.new-con p em {
+	margin-left: 10px;
+}
+.new-con span {
+	overflow: hidden;
+	width: 294px;
+	height: 24px;
+}
+.new-con span strong {
+	overflow: hidden;
+	width: 182px;
+	height: 24px;
+	margin-left: 36px;
+}
+.new-con div a {
+	display: block;
+	width: 68px;
+	height: 30px;
+	margin-top: 16px;
+	border-radius: 6px;
+	background: #e87d76;
+	text-align: center;
+	line-height: 30px; 
+}
+.new-con a:hover {
+	color: #ffa18f;
+}
+.new-con div a:hover {
+	color: #000;
+}
+/*右侧栏目开始*/
+.titles {
+	float: left;
+	width: 249px;
+	padding: 93px 10px 0 16px;
+}
+ /* 公共样式列表开始 */
+      .public_list {
+        width: 250px;
+      }
+      .public_list h2, .public_list h3 {
+        position: relative;
+        height: 41px;
+        border-bottom: 4px solid #ffa18f;
+      }
+      .public_list h2 span {
+        color: #ffa18f;
+        font-size: 24px;
+      }
+      .public_list h2 a {
+        position: absolute;
+        top: 8px;
+        right: 0px;
+        width: 25px;
+        height: 25px;
+        background: url("../images/public_list.png") -24px -24px;
+      }
+      .public_list ul {
+        padding: 25px 0px 17px 0px;
+      }
+      .public_list .public_list_ul {
+        overflow: hidden;
+        height: 190px;
+        padding-bottom: 0px;
+      }
+      .public_list li {
+        float: left;
+        height: 24px;
+        margin-bottom: 14px;
+      }
+      .public_list li div {
+        float: left;
+        overflow: hidden;
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        border-radius: 50%;
+        color: #fff;
+        background: #bebebe;
+        text-align: center;
+        line-height: 24px;
+        font-size: 14px;
+      }
+      .public_list li a {
+        float: right;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap;
+        display: block;
+        width: 212px;
+        height: 24px;
+        color: #000;
+        line-height: 24px;
+        font-size: 14px;
+      }
+      .public_list h3 {
+        height: 15px;
+      }
+      .public_list h3 span {
+        position: absolute;
+        top: 0px;
+        left: 110px;
+        width: 33px;
+        height: 34px;
+        background: url("../images/public_list.png") -66px -19px;
+        cursor: pointer;
+        cursor: hand;
+      }
+      .content a:hover {
+        color: #ffa18f;
+      }
+    /* 公共样式列表结束 */
+/*右侧栏目开始结束*/
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,597 @@
+/* 头部样式处理 */
+.wrap .head-out {
+    background: #2752aa;
+}
+.home div {
+    background: url("../images/common.png") 0 -62px no-repeat;
+}
+.tits .us div {
+    background: url("../images/common.png") -212px -22px no-repeat;
+}
+.head {
+    margin: 0 auto;   
+    border-bottom: 4px solid rgba(96, 83, 78, 0.5);
+}
+/* 关于我们 开始*/
+.security {
+    position: relative;
+}
+.advantage, .stu-info {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.se-linel, .se-liner {
+    position: absolute;
+    top: 18px;
+    width: 350px;
+    height: 2px;
+}
+.se-linel {
+    left: 0;
+}
+.se-liner {
+    right: 0;
+}
+.security h3, .our-inv h3 {
+    height: 30px;
+    margin: 0px auto 40px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.us-wrap {
+    min-width: 980px;
+    padding-top: 114px;
+    background: #2752aa;
+}
+.us-cont .security {
+    height: 100%;
+    background: #2752aa;
+}
+.us-cont {
+    width: 980px;
+    margin: 0 auto;
+    padding-top: 38px;
+}
+/* 标题 */
+.us-cont h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 30px;
+}
+.us-tit div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    margin-right: 27px;
+    background: url("../images/common.png") -212px -22px no-repeat;
+}
+.us-wrap .se-linel, .us-wrap .se-liner {
+    background: url("../images/job.png") 1px -404px no-repeat;
+}
+/* 标题 结束 */
+
+/* 公司简介 */
+
+.com-intro {
+    height: 292px;
+    position: relative;
+    margin-top: 12px;
+}
+.com-intro dl {
+    height: 202px;
+    padding-top: 20px;
+}
+.com-intro dd {
+    float: right;
+}
+.com-intro dd img {
+    width: 390px;
+    height: 198px;
+}
+.com-intro dt {
+    float: left;
+    width: 535px;
+}
+.com-intro dt h4 {
+    font-size: 24px;
+}
+.com-intro dt p {
+    margin-top: 28px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.com-more1 {
+    display: block;
+    width: 68px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    background: #ff870d;
+    font-family: Arial;
+    cursor: pointer;
+}
+.com-intro dt a:hover {
+    color: #ff870d;
+}
+.com-intro .com-more1:hover {
+    color: #000;
+}
+/* 公司简介 结束 */
+
+/* 公司荣誉 */
+
+.com-hon {
+    position: relative;
+    margin-top: 64px;
+    padding-bottom: 27px;
+}
+.honor {
+    position: relative;
+    height: 640px;
+    margin: 4px 10px 0;
+    background: url("../images/bac_data1.png") 272px 0 no-repeat; 
+}
+
+.honor div {
+    position: absolute;
+    width: 253px;
+    height: 128px;
+    padding: 11px;
+    background: #45454f;
+}
+.honor img {
+    display: block;
+    width: 253px;
+    height: 128px;
+}
+.honor h4 {
+    position: absolute;
+    bottom: -38px;
+    width: 253px;
+    height: 24px;
+    color: #fff;
+    text-align: center;
+    line-height: 24px;
+    font-size: 24px;
+}
+.honor span {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.step-one {
+    top: 5px;
+    left: 0px;
+}
+.step-one span {
+    top: 38px;
+    left: 345px;
+}
+.step-two {
+    top: 38px;
+    right: 3px;
+}
+.step-two span {
+    top: 70px;
+    left: -133px;
+}
+.step-thr {
+    top: 254px;
+    left: 50px;
+}
+.step-thr span {
+    top: 38px;
+    left: 315px;
+}
+.step-fou {
+    top: 416px;
+    right: 53px;
+}
+.step-fou span {
+    top: 10px;
+    left: -104px;
+}
+.honor-more {
+    position: absolute;
+    top: 614px;
+    left: 452px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.honor-more div {
+    width: 75px;
+    height: 75px;
+    background: url("../images/more2.png") 0 0 no-repeat;    
+}
+/* 公司荣誉 结束 */
+
+/* 公司新闻 */
+
+.post-recom {
+    position: relative;
+    margin-top: 27px;
+}
+.post-con {
+    overflow: hidden;
+    width: 960px;
+    margin: 0 10px 60px;
+}
+.post-box {
+    width: 200%;
+}
+.post-con ul {
+    float: left;
+    width: 360px;
+    height: 160px;
+    margin-right: 214px; 
+}
+.post-con li a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+    white-space: nowrap;
+    width: 360px;
+    height: 30px;
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 30px;
+}
+.post-con li a:hover {
+    color: #ff8100;
+}
+/* 公司新闻 结束 */
+
+/* 教学优势 */
+
+.advantage {
+    position: relative;
+    overflow: hidden;
+    width: 980px;
+    height: 480px;
+    margin: 30px auto 0;
+}
+.ad-con {
+    width: 1070px;
+    padding: 12px 0 38px 12px;
+}
+.advantage dl {
+    float: left;
+    width: 165px;
+    padding-right: 102px;
+}
+.advantage dt {
+    width: 102px;
+    height: 102px;
+    margin: 0 auto 5px;
+    background: url("../images/index.png") 0px -112px no-repeat;
+}
+.ad-con h4 {
+    height: 92px;
+    line-height: 92px;
+    text-align: center;
+    font-size: 24px;
+}
+.ad-con p {
+    overflow: hidden;
+    height: 120px;
+    padding-left: 5px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.ad-con span {
+    display: block;
+}
+.analy dt {
+    background: url("../images/index.png") -103px -107px no-repeat;
+}
+.get-job dt {
+    background: url("../images/index.png") -218px -107px no-repeat;
+}
+.trace dt {
+    background: url("../images/index.png") -328px -107px no-repeat;
+}
+.condition {
+    position: relative;
+    width: 980px;
+    height: 540px;
+    margin: 0 auto;
+    background: url("../images/condition.png") 0px 52px no-repeat;
+}
+.con-show, .con-hidden {
+    position: relative;
+    width: 980px;
+    height: 450px;
+}
+.con-hidden {
+    display: none;
+}
+.con-show div, .con-hidden div {
+    position: absolute;
+    width: 196px;
+}
+.con-left {
+    top: 41px;
+    left: 16px;
+}
+.condition .con-right {
+    width: 198px;
+    top: -22px;
+    right: -20px;
+}
+.con-show h4, .con-hidden h4 {
+    height: 24px;
+    margin-bottom: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+.con-show p, .con-hidden p {
+    line-height: 29px;
+    font-size: 18px;
+}
+.con-show span, .con-hidden span {
+    display: block;
+}
+.con-btnl, .con-btnr {
+    position: absolute;
+    bottom: 150px;
+    right: 120px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    cursor: hand;
+}
+.con-btnl {
+    right: 142px;
+    background: url("../images/index.png") -282px -10px;
+}
+.con-btnr {
+    right: 62px;
+    background: url("../images/index.png") -228px -10px;
+}
+.con-btnl:hover {
+    background: url("../images/index.png") -282px -57px;
+}
+.con-btnr:hover {
+    background: url("../images/index.png") -228px -57px;
+}
+.data {
+    position: absolute;
+    bottom: 58px;
+    right: 50px;
+    font-size: 16px;
+}
+.stu-info {
+    height: 278px;
+}
+.stu-info table {
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 35px;
+    text-align: left;
+}
+
+/* 教学优势 结束 */
+
+/* 学习环境 */
+
+.our-inv {
+    position: relative;
+    margin-top: 18px; 
+}
+.our-out, .min-pics {
+    position: relative;
+    overflow: hidden;
+    width: 960px;
+    margin: 0 10px;
+}
+.our-out a {
+    position: relative;
+    display: block;
+    width: 980px;
+    height: 352px;
+}
+.our-out img {
+    position: absolute;
+    display: none;
+    width: 980px;
+    height: 352px;
+}
+.min-pics img {
+    width: 240px;
+}
+.our {
+    position: relative;
+    height: 1090px;
+    background: #2651aa;
+}
+.our-linel, .our-liner {
+    position: absolute;
+    top: 15px;
+    width: 200px;
+    height: 2px;
+    background: url("../images/index.png") -5px -253px no-repeat;
+}
+.our-linel {
+    left: 0;
+}
+.our-liner {
+    right: 0;
+}
+.our-inv {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+.our-btn {
+    position: absolute;
+    top: 157px;
+    width: 924px;
+    height: 42px;
+    padding: 0 18px;
+    cursor: pointer;
+}
+.our-btnl {
+    float: left;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -282px -8px no-repeat;
+}
+.our-btnr {
+    float: right;
+    width: 42px;
+    height: 42px;
+    background: url("../images/index.png") -228px -8px no-repeat;
+}
+.our-btnl:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.our-btnr:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.min-pics div {
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 162px;
+}
+.min-pics p {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+}
+.min-pics span {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    z-index: 20;
+}
+.min-pics div:nth-child(1) p {
+    display: none;
+}
+.min-pics div:hover p {
+    display: none;
+}
+.our-list {
+    overflow: hidden;
+    width: 980px;
+    height: 240px;
+    margin: 50px auto;
+}
+.ourlist-out {
+    width: 1020px;
+}
+.ourlist-con {
+    float: left;
+    overflow: hidden;
+    width: 270px;
+    height: 100%;
+    padding-right: 70px;
+}
+.ourlist-con h3 {
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+.ourlist-con li {
+    float: left;
+    height: 25px;
+    padding-bottom: 14px;
+}
+.ourlist-con div {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    background: #0a2252;
+}
+.ourlist-con a {
+    overflow: hidden;
+    float: left;
+    width: 224px;
+    height: 25px;
+    padding-left: 10px;
+    line-height: 25px;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-break: keep-all;    /* 不换行 */
+    white-space: nowrap;    /* 不换行 */
+}
+.ourlist-con a:hover {
+    color: red;
+}
+.ourlist-con li:hover div {
+    background: red;
+}
+
+/* 学习环境 结束 */
+
+/* 就业学员 */
+.job-stu {
+    position: relative;
+    margin: 52px 0 65px;
+}
+.jstu-con {
+    overflow: hidden;
+    width: 960px;
+    height: 162px;
+    margin: 0 11px;
+}
+.job-stu ul {
+    width: 1500px;
+}
+.job-stu li {
+    float: left;
+    position: relative;
+    overflow: hidden;
+    width: 118px;
+    height: 162px;
+    margin-right: 50px;
+}
+.job-stu img {
+    float: left;
+    width: 118px;
+    height: 118px;
+}
+.job-stu p {
+    font-size: 14px;
+    margin: 13px 0;
+    text-align: center;
+}
+.jstu-more {
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 118px;
+    height: 118px;
+    background: rgba(00, 00, 00, 0.5) url("../images/more1.png") 42px 56px no-repeat;
+}
+.jstu-pic:hover a {
+    display: block;
+}
+.jstu-con a:hover {
+    color: #ff870d;
+}
+/* 就业学员 结束 */

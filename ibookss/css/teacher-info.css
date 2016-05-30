@@ -1,0 +1,273 @@
+.big-pic {
+    height: 114px;
+    background: #343131;
+}
+.head {
+    border-bottom: 4px solid rgba(96, 83, 78, 0.5);
+}
+.head-out {
+    background: #343131;
+}
+.teacher {
+    color: #FF8100;
+}
+.teacher div {
+    background: url("../images/common.png") -105px -22px no-repeat;
+}
+/*讲师导航栏  开始*/
+
+.tea-show {
+    overflow: hidden;
+    height: 647px;
+}
+.tea-cons {
+    height: 100%;
+}
+.con-out {
+    width: 100%;
+}
+.tea-out {
+    display: none;
+    width: 100%;
+    height: 627px;
+    background: url("../images/teabac.png") 0 0 repeat;
+}
+.tea-cons div:nth-child(1) {
+    display: block;
+}
+.tea-con {
+    width: 980px;
+    margin: 0 auto;
+}
+.tea-con dt {
+    height: 100%;
+}
+.teas h1 {
+    width: 960px;
+    height: 36px;
+    padding-top: 36px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 30px;
+}
+.tea-tits h1 div {
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: url("../images/common.png") -105px -22px no-repeat;
+}
+.teas h1 span {
+    display: block;
+    padding-left: 58px;
+}
+.teas {
+    height: 248px;
+    background: #343131;
+}
+.tea-pro {
+    margin-top: 15px;
+}
+.tea-pro h3 {
+    padding-top: 25px;
+}
+.tea-pro strong {
+    margin-top: 13px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.teachs .sec-dt {
+    float: right;
+    padding: 27px 0 0 0;
+}
+.teachs .sec-dd {
+    float: left;
+    width: 496px;
+    padding: 0 0 0 176px;
+    background: url("../images/tea_line.png") 55px 50px no-repeat;
+}
+/*讲师导航栏  结束*/
+
+/* 讲师样式 开始 */
+.teachs {
+    position: relative;
+    /*height: 920px;*/
+    background: #343131;
+}
+.tea-linel, .tea-liner {
+    position: absolute;
+    top: 196px;
+    width: 120px;
+    height: 2px;
+    background: url("../images/index.png") -39px -32px no-repeat;
+}
+.tea-linel {
+    left: -145px;
+}
+.tea-liner {
+    right: -145px;
+}
+.tea-out {
+    overflow: hidden;
+    width: 980px;
+    height: 647px;
+    margin: 0 auto;
+    background: #343131;
+}
+.tea-con {
+    width: 200%;
+}
+.tea-con dl {
+    float: left;
+    width: 980px;
+    padding-top: 40px;
+}
+.tea-con dt {
+    float: left;
+    width: 240px;
+    height: 460px;
+    padding: 25px 38px 0 78px;
+}
+.tea-con dt a {
+    display: block;
+    height: 100%;
+}
+.tea-con dt img {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+.tea-con dd {
+    float: left;
+    width: 496px;
+    padding-left: 128px;
+    background: url("../images/tea_line.png") 0 50px no-repeat;
+}
+.tea-con dd h3 {
+    height: 25px;
+    line-height: 25px;
+    font-size: 18px;
+}
+.tea-con dd ul {
+    margin-top: 25px;
+}
+.tea-con dd strong {
+    display: block;
+}
+.teachs .tea-txt {
+    width: 492px;
+    height: 100px;
+    margin: 55px 0 30px 0;
+    line-height: 26px;
+    font-size: 16px;
+    text-align: left;
+}
+.teachs .tea-txt a:hover {
+    color: red;
+}
+.tea-con dd span {
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    color: #009cff;
+    font-size: 16px;
+}
+.tea-con dd span:hover {
+    color: red;
+}
+.tea-pro {
+    margin-top: 40px;
+}
+.tea-pro em {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: -40px;
+    background: url("../images/index.png") -359px -10px no-repeat;
+}
+.tea-pro li {
+    float: left;
+    width: 180px;
+    padding-right: 68px;
+}
+.tea-pro li a {
+    display: block;
+}
+.tea-pro img {
+    float: left;
+    width: 94px;
+    height: 94px;
+}
+.tea-pro h4 {
+    float: left;
+    height: 94px;
+    padding-left: 22px;
+    line-height: 94px;
+    font-size: 14px;
+}
+.tea-pro h4:hover {
+    color: red;
+}
+.teas-con {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.tea-btnl, .tea-btnr {
+    float: left;
+    width: 42px;
+    height: 42px;
+    padding: 60px 0;
+}
+.tea-btnr {
+    float: right;
+}
+.tea-btnl div, .tea-btnr div {
+    height: 100%;
+    background: url("../images/index.png") -282px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnr div {
+    background: url("../images/index.png") -228px -8px no-repeat;
+    cursor: pointer;
+    cursor: hand;
+}
+.tea-btnl div:hover {
+    background: url("../images/index.png") -282px -55px no-repeat;
+}
+.tea-btnr div:hover {
+    background: url("../images/index.png") -228px -55px no-repeat;
+}
+.teas-out {
+    overflow: hidden;
+    float: left;
+    width: 876px;
+    height: 144px;
+    padding-top: 30px;
+}
+.teas ul {
+    width: 200%;
+}
+.teas ul li {
+    float: left;
+    width: 106px;
+    height: 106px;
+    padding: 0 20px 0 45px;
+}
+.teas ul li div {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #262323;
+}
+.teas ul img {
+    float: left;
+    width: 100%;
+    cursor: pointer;
+    cursor: hand;
+}
+.teas ul li:hover div {
+    background: #fff;
+}
+/* 讲师样式 结束 */

@@ -1,0 +1,104 @@
+@charset 'utf-8';
+.head-out {
+	background: #2551a9;
+}
+.tits .us {
+	background: url("../images/common.png") -212px -22px no-repeat;
+	color: #FF8100;
+}
+.tit a {
+	color: #000
+}
+.tit a:hover {
+	text-decoration: underline;
+}
+.content {
+	background: url("../images/bac.png") repeat;
+}
+.con {
+	width: 970px;
+	margin: 0 auto;
+	padding-right: 10px;
+}
+.tit {
+	height: 88px;
+	padding-left: 68px;
+	background: url("../images/tit_bac.png") no-repeat;
+	color: #000; 
+	line-height: 88px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.con h2 {
+	height: 46px;
+	padding-left: 9px;
+	border-bottom: 4px solid #ffa18f;
+	color: #000;
+	font-size: 30px;
+}
+.honor {
+	position: relative;
+	height: 875px;
+	background: url("../images/bac_data.png") 284px 56px no-repeat; 
+}
+.honor div {
+	position: absolute;
+	width: 253px;
+	height: 128px;
+	padding: 11px;
+	background: #45454f;
+}
+.honor img {
+	display: block;
+	width: 253px;
+	height: 128px;
+}
+.honor h3 {
+	position: absolute;
+	bottom: -38px;
+	width: 253px;
+	height: 24px;
+	color: #3c3c3c;
+	text-align: center;
+	line-height: 24px;
+	font-size: 24px;
+}
+.honor span {
+	position: absolute;
+	width: 130px;
+	height: 20px;
+	color: #3c3c3c;
+	font-size: 18px;
+}
+.step-one {
+	top: 61px;
+	left: 10px;
+}
+.step-one span {
+	top: 38px;
+	left: 345px;
+}
+.step-two {
+	top: 95px;
+	right: 0px;
+}
+.step-two span {
+	top: 70px;
+	left: -133px;
+}
+.step-thr {
+	top: 310px;
+	left: 60px;
+}
+.step-thr span {
+	top: 38px;
+	left: 315px;
+}
+.step-fou {
+	top: 472px;
+	right: 50px;
+}
+.step-fou span {
+	top: 10px;
+	left: -104px;
+}

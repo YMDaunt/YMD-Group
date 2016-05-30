@@ -1,0 +1,280 @@
+@charset 'utf-8';
+.tits .job div {
+    background: url("../images/common.png") -70px -22px no-repeat;
+}
+.job {
+    color: #FF8100;
+}
+.content {
+	width: 100%;
+}
+.main {
+	width: 980px;
+	margin: auto;
+	padding-top: 36px;
+	margin-bottom: 105px;
+}
+/*明星学员详细内容*/
+.tit {
+	padding-left: 10px;
+}
+.tit div {
+	float: left;
+	width: 31px;
+	height: 31px;
+	background: url("../images/common.png") -70px -22px no-repeat;
+}
+.tit span {
+	display: block;
+	float: left;
+	margin-left: 20px;
+	line-height: 31px;
+	color: #3c3c3c;
+}
+.tit span em {
+    float: left;
+    margin: 0 6px;
+}
+.tit span a {
+    float: left;
+    display: block;
+    color:  #3c3c3c;
+}
+.tit span a:hover {
+    text-decoration: underline;
+}
+.main h1 {
+	width: 680px;
+	height: 64px;
+	padding-left: 10px;
+	line-height: 64px;
+	font-size: 30px;
+	color: #3c3c3c;
+	border-bottom: 4px solid #ffa18f;
+}
+.main .star {
+	float: left;
+	width: 690px;
+	color: black;
+}
+.star .con {
+	width: 670px;
+	padding: 32px 10px 0;
+}
+.star .con img {
+	float: left;
+	width: 670px;
+	height: 308px;
+	margin-bottom: 37px;
+	border-radius: 5px;
+}
+.con dd {
+	color: #3c3c3c;
+}
+.con dd h2 {
+	font-size: 30px;
+}
+.con dd .info {
+	font-size: 24px;
+	margin-bottom: 18px;
+}
+.con dd .education, .con dd h3 {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.con dd p {
+	line-height: 28px;
+	font-size: 16px;
+	color: #a1a1a1;
+}
+/*所属讲师模块*/
+.belong_sir {
+	width: 458px;
+	margin-top: 40px;
+	padding: 0 10px;
+}
+.active h2, .belong_sir h2, .project h2, .more_stu h2 {/*公共h2字体*/
+	color: #3c3c3c;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+.belong_sir dl {
+	width: 100%;
+}
+.belong_sir dt {
+	float: left;
+	margin-right: 34px;
+}
+.belong_sir dt a, .belong_sir dt img {
+	display: block;
+	width: 103px;
+	height: 104px;
+}
+.belong_sir dd {
+	float: left;
+	width: 320px;
+	color: #3c3c3c;
+	line-height: 104px;
+	font-size: 18px;
+}
+.belong_sir div{
+	float: left;
+}
+.belong_sir dd span {
+	margin-right: 22px;
+}
+.belong_sir dd a {
+	float: right;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-top: 43px;
+	background: url("../images/public_list.png") -24px -24px;
+}
+/*参与项目*/
+.star .project {
+	margin-top: 46px;
+}
+.project dl {
+	width: 100%;
+}
+.project dt {
+	float: left;
+	margin-right: 21px;
+}
+.project dt a, .project dt img {
+	display: block;
+	width: 90px;
+	height: 104px;
+}
+.project dd {
+	float: left;
+	width: 560px;
+}
+.project dd h3 {
+	color: #3c3c3c;
+	font-size: 18px;
+	margin-bottom: 13px;
+}
+.project dd h4 {
+	color: #b4b4b4;
+}
+.project dd a {
+	float: left;
+	display: block;
+	overflow: hidden;
+	width: 490px;
+	line-height: 24px;
+	color: #b4b4b4;
+}
+.project dd a:hover {
+	color: #e88079;
+}
+.project dd .btn {
+	float: right;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: url("../images/public_list.png") -24px -24px;
+}
+/*参与活动*/
+.active {
+	margin-top: 60px;
+}
+.active dt {
+	float: left;
+	margin-right: 21px;
+}
+.active dt a, .active dt img {
+	display: block;
+	width: 254px;
+	height: 129px;
+}
+.active dd {
+	float: left;
+	width: 388px;
+}
+.active dd h3 {
+	color: #3c3c3c;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+.active dd a {
+	overflow: hidden;
+	display: block;
+	width: 100%;
+	color: #6d6d6d;
+	line-height: 22px;
+}
+.active dd a:hover {
+	color: #e88079;
+}
+.active dd .more {
+	width: 68px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	background: #e88079;
+}
+.active .more:hover {
+	color: #000;
+}
+
+/*更多学员*/
+.more_stu {
+	margin-top: 55px;
+}
+.stu_con {
+	padding-bottom: 40px;
+	border-bottom: 4px solid #ffa18f;
+}
+.stu_con .left, .stu_con .right {
+	display: block;
+	width: 39px;
+	height: 39px;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.stu_con .left {
+	float: left;
+	margin-right: 16px;
+	background: url("../images/turn_page.png") 0px 0px;
+}
+.stu_con .right {
+	float: right;
+	background: url("../images/turn_page.png") 41px 0px; 
+}
+.stu_box {
+	overflow: hidden;
+	float: left;
+	height: 153px;
+}
+.more_stu .imgsBox {
+	height: 153px;
+}
+.more_stu .imgsBox div {
+	margin-right: -30px;
+}
+.imgsBox dd {
+	margin-top: 16px;
+	margin-right: -12px;
+}
+.imgsBox span {
+	margin-right: 12px;
+}
+.imgsBox dt a, .imgsBox dt img {
+	display: block;
+	width: 118px;
+	height: 118px;
+}
+.more_stu .imgsBox dl {
+	float: left;
+	width: 120px;
+	margin-right: 30px;
+}
+.news {
+	float: right;
+}
